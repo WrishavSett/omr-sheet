@@ -1,7 +1,7 @@
 import os
 import re
 import json
-from utils.utils import process_omr_data, process_key_coordinates, update_key_field_dimensions
+from utils import process_omr_data, process_key_coordinates, update_key_field_dimensions, update_field_names_for_omr
 
 # base_folder,
 # omr_template_name,
@@ -9,7 +9,7 @@ from utils.utils import process_omr_data, process_key_coordinates, update_key_fi
 # batch_name
 
 omr_template_name = "HSOMR"  # Default template name for demonstration
-json_file_path = "D:/OMR_DEV/abhigyan/BATCH018 copy.json"
+json_file_path = "D:/OMR_DEV/abhigyan/26300426 copy.json"
 field_mappings_path = "D:/OMR_DEV/abhigyan/field_mappings.json"
 key_fields_path = "D:/OMR_DEV/abhigyan/key_fields.json"
 output_folder = "D:/OMR_DEV/abhigyan/"
@@ -29,8 +29,6 @@ coordinates_output_path = process_key_coordinates(
     output_path=coordinates_output_path)
 print(f"Debug: Coordinates Output Path: {coordinates_output_path}")
 
-key_fields_path = "D:/OMR_DEV/abhigyan/key_fields.json"
-
 # NEW: Call the function to update the dimensions in the output JSON
 path = update_key_field_dimensions(
     output_json_path=output_file_path,
@@ -38,3 +36,9 @@ path = update_key_field_dimensions(
     key_fields_path=key_fields_path
 )
 print(f"Debug: Fully Updated Output File Path: {path}")
+
+final = update_field_names_for_omr(
+    json_file_path=path,
+    key_fields_path=key_fields_path
+)
+print(f"Debug: Final Output File Path: {final}")

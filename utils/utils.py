@@ -3,6 +3,145 @@ import re
 import os
 
 
+# def process_omr_data(json_file_path, key_fields_path, template_name, output_file_path):
+#     """
+#     Processes OMR data from a JSON file, validates against a template name,
+#     and saves the processed data to a new JSON file.
+
+#     Args:
+#         json_file_path (str): The full path to the input JSON file.
+#         template_name (str): The template name to match against.
+#         output_file_path (str): The full path where the processed JSON file will be saved.
+
+#     Returns:
+#         None, but prints status messages.
+#     """    
+#     try:
+#         with open(json_file_path, 'r') as f:
+#             json_data = json.load(f)
+#     except FileNotFoundError:
+#         print(f"Error: The file '{json_file_path}' was not found.")
+#         return
+#     except json.JSONDecodeError:
+#         print(f"Error: The file '{json_file_path}' is not a valid JSON file.")
+#         return
+    
+#     try:
+#         with open(key_fields_path, 'r') as f:
+#             key_fields = json.load(f)
+#     except FileNotFoundError:
+#         print(f"Error: The file '{key_fields_path}' was not found.")
+#         return
+#     except json.JSONDecodeError:
+#         print(f"Error: The file '{key_fields_path}' is not a valid JSON file.")
+#         return
+
+#     # Match the template name
+#     if json_data.get("TEMPLATE") != template_name:
+#         print(f"Error: Template name mismatch. Expected '{template_name}', but found '{json_data.get('TEMPLATE')}' from the file.")
+#         return
+
+#     # Create a deep copy to avoid modifying the original data directly
+#     processed_json_data = json.loads(json.dumps(json_data))
+
+#     # Create key fields list
+#     key_fields_list = []
+#     for key, value in key_fields.items():
+#         if isinstance(value, str):
+#             key_fields_list.append(value)
+#         elif isinstance(value, list):
+#             for item in value:
+#                 if isinstance(item, str):
+#                     key_fields_list.append(item)
+
+#     print("Info: Key fields list:", key_fields_list)
+    
+#     key_fields_icr_list = []
+#     for i, key in enumerate(key_fields_list):
+#         key_fields_icr_list.append(key + " ICR")
+
+#     print("Info: Key fields list with 'ICR' suffix:", key_fields_icr_list)
+
+#     # Iterate through each image
+#     if "IMAGES" in processed_json_data and isinstance(processed_json_data["IMAGES"], list):
+#         for image in processed_json_data["IMAGES"]:
+#             # Iterate through each field in the image
+#             if "FIELDS" in image and isinstance(image["FIELDS"], list):
+#                 for field in image["FIELDS"]:
+
+#                     # Check for ICR specific fields
+#                     if field.get("FIELD") in key_fields_icr_list:
+#                         field_data = field.get("FIELDDATA", "")
+                        
+#                         # Process "REGISTRATION NUMBER ICR"
+#                         if field["FIELD"].upper() == "REGISTRATION NUMBER ICR":
+#                             # Remove leading/trailing spaces and keep only digits, ~ and *
+#                             cleaned_data = re.sub(r'[^0-9~*]', '', field_data.strip())
+#                             field["FIELDDATA"] = cleaned_data
+                        
+#                         # Process "ROLL NUMBER ICR"
+#                         elif field["FIELD"].upper() == "ROLL NUMBER ICR":
+#                             # Remove leading/trailing spaces and keep only digits, ~ and *
+#                             cleaned_data = re.sub(r'[^0-9~*]', '', field_data.strip())
+#                             # Insert a space after the first 6 digits
+#                             if len(cleaned_data) > 6:
+#                                 field["FIELDDATA"] = cleaned_data[:6] + " " + cleaned_data[6:]
+#                             else:
+#                                 field["FIELDDATA"] = cleaned_data
+                        
+#                         # Process "QUESTION BOOKLET NUMBER ICR"
+#                         elif field["FIELD"].upper() == "QUESTION BOOKLET NUMBER ICR":
+#                             # Remove leading/trailing spaces and keep only digits, ~ and *
+#                             cleaned_data = re.sub(r'[^0-9~*]', '', field_data.strip())
+#                             # Insert a hyphen after the first 2 digits
+#                             if len(cleaned_data) > 2:
+#                                 field["FIELDDATA"] = cleaned_data[:2] + "-" + cleaned_data[2:]
+#                             else:
+#                                 field["FIELDDATA"] = cleaned_data
+                                
+#                     # Check for OMR specific fields
+#                     if field.get("FIELD") in key_fields_list:
+#                         field_data = field.get("FIELDDATA", "")
+                        
+#                         # Process "REGISTRATION NUMBER ICR"
+#                         if field["FIELD"].upper() == "REGISTRATION NUMBER":
+#                             # Remove leading/trailing spaces and keep only digits, ~ and *
+#                             cleaned_data = re.sub(r'[^0-9~*]', '', field_data.strip())
+#                             field["FIELDDATA"] = cleaned_data
+                        
+#                         # Process "ROLL NUMBER ICR"
+#                         elif field["FIELD"].upper() == "ROLL NUMBER":
+#                             # Remove leading/trailing spaces and keep only digits, ~ and *
+#                             cleaned_data = re.sub(r'[^0-9~*]', '', field_data.strip())
+#                             # Insert a space after the first 6 digits
+#                             if len(cleaned_data) > 6:
+#                                 field["FIELDDATA"] = cleaned_data[:6] + " " + cleaned_data[6:]
+#                             else:
+#                                 field["FIELDDATA"] = cleaned_data
+                        
+#                         # Process "QUESTION BOOKLET NUMBER ICR"
+#                         elif field["FIELD"].upper() == "QUESTION BOOKLET NUMBER":
+#                             # Remove leading/trailing spaces and keep only digits, ~ and *
+#                             cleaned_data = re.sub(r'[^0-9~*]', '', field_data.strip())
+#                             # Insert a hyphen after the first 2 digits
+#                             if len(cleaned_data) > 2:
+#                                 field["FIELDDATA"] = cleaned_data[:2] + "-" + cleaned_data[2:]
+#                             else:
+#                                 field["FIELDDATA"] = cleaned_data
+
+#     # Create the output folder if it doesn't exist
+#     output_dir = os.path.dirname(output_file_path)
+#     if output_dir:
+#         os.makedirs(output_dir, exist_ok=True)
+    
+#     # Save the modified JSON to the new file path
+#     with open(output_file_path, 'w') as f:
+#         json.dump(processed_json_data, f, indent=4)
+    
+#     print(f"Output: Successfully processed data and saved the output to '{output_file_path}'.")
+#     return output_file_path
+
+
 def process_omr_data(json_file_path, key_fields_path, template_name, output_file_path):
     """
     Processes OMR data from a JSON file, validates against a template name,
@@ -20,114 +159,181 @@ def process_omr_data(json_file_path, key_fields_path, template_name, output_file
         with open(json_file_path, 'r') as f:
             json_data = json.load(f)
     except FileNotFoundError:
-        print(f"Error: The file '{json_file_path}' was not found.")
+        print(f"|ERROR| The file '{json_file_path}' was not found.")
         return
     except json.JSONDecodeError:
-        print(f"Error: The file '{json_file_path}' is not a valid JSON file.")
+        print(f"|ERROR| The file '{json_file_path}' is not a valid JSON file.")
         return
     
     try:
         with open(key_fields_path, 'r') as f:
             key_fields = json.load(f)
     except FileNotFoundError:
-        print(f"Error: The file '{key_fields_path}' was not found.")
+        print(f"|ERROR| The file '{key_fields_path}' was not found.")
         return
     except json.JSONDecodeError:
-        print(f"Error: The file '{key_fields_path}' is not a valid JSON file.")
+        print(f"|ERROR| The file '{key_fields_path}' is not a valid JSON file.")
         return
 
-    # Match the template name
-    if json_data.get("TEMPLATE") != template_name:
-        print(f"Error: Template name mismatch. Expected '{template_name}', but found '{json_data.get('TEMPLATE')}' from the file.")
-        return
+    if json_data.get("TEMPLATE") == "ASSAMOMR" and template_name == "ASSAMOMR":
+        # print(f"Info: Processing for template 'ASSAMOMR'.")
+        # print(f"|ERROR| Template name mismatch. Expected '{template_name}', but found '{json_data.get('TEMPLATE')}' from the file.")
+        # return
 
-    # Create a deep copy to avoid modifying the original data directly
-    processed_json_data = json.loads(json.dumps(json_data))
+        # Create a deep copy to avoid modifying the original data directly
+        processed_json_data = json.loads(json.dumps(json_data))
 
-    # Create key fields list
-    key_fields_list = []
-    for key, value in key_fields.items():
-        if isinstance(value, str):
-            key_fields_list.append(value)
-        elif isinstance(value, list):
-            for item in value:
-                if isinstance(item, str):
-                    key_fields_list.append(item)
+        # Create key fields list
+        key_fields_list = []
+        for key, value in key_fields.items():
+            if isinstance(value, str):
+                key_fields_list.append(value)
+            elif isinstance(value, list):
+                for item in value:
+                    if isinstance(item, str):
+                        key_fields_list.append(item)
 
-    print("Info: Key fields list:", key_fields_list)
-    
-    key_fields_icr_list = []
-    for i, key in enumerate(key_fields_list):
-        key_fields_icr_list.append(key + " ICR")
+        # print("Info: Key fields list:", key_fields_list)
+        
+        key_fields_icr_list = []
+        for i, key in enumerate(key_fields_list):
+            key_fields_icr_list.append(key + " ICR")
 
-    print("Info: Key fields list with 'ICR' suffix:", key_fields_icr_list)
+        # print("Info: Key fields list with 'ICR' suffix:", key_fields_icr_list)
 
-    # Iterate through each image
-    if "IMAGES" in processed_json_data and isinstance(processed_json_data["IMAGES"], list):
-        for image in processed_json_data["IMAGES"]:
-            # Iterate through each field in the image
-            if "FIELDS" in image and isinstance(image["FIELDS"], list):
-                for field in image["FIELDS"]:
+        # Iterate through each image
+        if "IMAGES" in processed_json_data and isinstance(processed_json_data["IMAGES"], list):
+            for image in processed_json_data["IMAGES"]:
+                # Iterate through each field in the image
+                if "FIELDS" in image and isinstance(image["FIELDS"], list):
+                    for field in image["FIELDS"]:
 
-                    # Check for ICR specific fields
-                    if field.get("FIELD") in key_fields_icr_list:
-                        field_data = field.get("FIELDDATA", "")
-                        
-                        # Process "REGISTRATION NUMBER ICR"
-                        if field["FIELD"].upper() == "REGISTRATION NUMBER ICR":
-                            # Remove leading/trailing spaces and keep only digits, ~ and *
-                            cleaned_data = re.sub(r'[^0-9~*]', '', field_data.strip())
-                            field["FIELDDATA"] = cleaned_data
-                        
-                        # Process "ROLL NUMBER ICR"
-                        elif field["FIELD"].upper() == "ROLL NUMBER ICR":
-                            # Remove leading/trailing spaces and keep only digits, ~ and *
-                            cleaned_data = re.sub(r'[^0-9~*]', '', field_data.strip())
-                            # Insert a space after the first 6 digits
-                            if len(cleaned_data) > 6:
-                                field["FIELDDATA"] = cleaned_data[:6] + " " + cleaned_data[6:]
-                            else:
-                                field["FIELDDATA"] = cleaned_data
-                        
-                        # Process "QUESTION BOOKLET NUMBER ICR"
-                        elif field["FIELD"].upper() == "QUESTION BOOKLET NUMBER ICR":
-                            # Remove leading/trailing spaces and keep only digits, ~ and *
-                            cleaned_data = re.sub(r'[^0-9~*]', '', field_data.strip())
-                            # Insert a hyphen after the first 2 digits
-                            if len(cleaned_data) > 2:
-                                field["FIELDDATA"] = cleaned_data[:2] + "-" + cleaned_data[2:]
-                            else:
-                                field["FIELDDATA"] = cleaned_data
+                        # Check for both OMR specific fields
+                        if field.get("FIELD") in key_fields_list:
+                            field_data = field.get("FIELDDATA", "")
+                                                        
+                            # Process "ROLL NUMBER ICR"
+                            if field["FIELD"].upper() == "ROLL NUMBER":
+                                # Remove leading/trailing spaces and keep only digits, ~ and *
+                                cleaned_data = re.sub(r'[^0-9~*]', '', field_data.strip())
+                            
+                            # Process "QUESTION BOOKLET NUMBER ICR"
+                            elif field["FIELD"].upper() == "QUESTION BOOKLET NUMBER":
+                                # Remove leading/trailing spaces and keep only alphabets and -
+                                cleaned_data = re.sub(r'[^A-Z\-\*]', '', field_data.strip())
+
+                        # Check for both ICR specific fields
+                        if field.get("FIELD") in key_fields_icr_list:
+                            field_data = field.get("FIELDDATA", "")
+                                                        
+                            # Process "ROLL NUMBER ICR"
+                            if field["FIELD"].upper() == "ROLL NUMBER ICR":
+                                # Remove leading/trailing spaces and keep only digits, ~ and *
+                                cleaned_data = re.sub(r'[^0-9~*]', '', field_data.strip())
+                            
+                            # Process "QUESTION BOOKLET NUMBER ICR"
+                            elif field["FIELD"].upper() == "QUESTION BOOKLET NUMBER ICR":
+                                # Remove leading/trailing spaces and keep only alphabets and -
+                                cleaned_data = re.sub(r'[^A-Z\-\*]', '', field_data.strip())
                                 
-                    # Check for OMR specific fields
-                    if field.get("FIELD") in key_fields_list:
-                        field_data = field.get("FIELDDATA", "")
-                        
-                        # Process "REGISTRATION NUMBER ICR"
-                        if field["FIELD"].upper() == "REGISTRATION NUMBER":
-                            # Remove leading/trailing spaces and keep only digits, ~ and *
-                            cleaned_data = re.sub(r'[^0-9~*]', '', field_data.strip())
-                            field["FIELDDATA"] = cleaned_data
-                        
-                        # Process "ROLL NUMBER ICR"
-                        elif field["FIELD"].upper() == "ROLL NUMBER":
-                            # Remove leading/trailing spaces and keep only digits, ~ and *
-                            cleaned_data = re.sub(r'[^0-9~*]', '', field_data.strip())
-                            # Insert a space after the first 6 digits
-                            if len(cleaned_data) > 6:
-                                field["FIELDDATA"] = cleaned_data[:6] + " " + cleaned_data[6:]
-                            else:
+    # Match the template name
+    # if json_data.get("TEMPLATE") == "HSOMR" and template_name == "HSOMR":
+    elif json_data.get("TEMPLATE") == template_name:
+        # print(f"Info: Processing for template: '{json_data.get('TEMPLATE')}'.")
+        # print(f"Error: Template name mismatch. Expected '{template_name}', but found '{json_data.get('TEMPLATE')}' from the file.")
+        # return
+
+        # Create a deep copy to avoid modifying the original data directly
+        processed_json_data = json.loads(json.dumps(json_data))
+
+        # Create key fields list
+        key_fields_list = []
+        for key, value in key_fields.items():
+            if isinstance(value, str):
+                key_fields_list.append(value)
+            elif isinstance(value, list):
+                for item in value:
+                    if isinstance(item, str):
+                        key_fields_list.append(item)
+
+        # print("Info: Key fields list:", key_fields_list)
+        
+        key_fields_icr_list = []
+        for i, key in enumerate(key_fields_list):
+            key_fields_icr_list.append(key + " ICR")
+
+        # print("Info: Key fields list with 'ICR' suffix:", key_fields_icr_list)
+
+        # Iterate through each image
+        if "IMAGES" in processed_json_data and isinstance(processed_json_data["IMAGES"], list):
+            for image in processed_json_data["IMAGES"]:
+                # Iterate through each field in the image
+                if "FIELDS" in image and isinstance(image["FIELDS"], list):
+                    for field in image["FIELDS"]:
+
+                        # Check for both OMR specific fields
+                        if field.get("FIELD") in key_fields_list:
+                            field_data = field.get("FIELDDATA", "")
+                            
+                            # Process "REGISTRATION NUMBER ICR"
+                            if field["FIELD"].upper() == "REGISTRATION NUMBER":
+                                # Remove leading/trailing spaces and keep only digits, ~ and *
+                                cleaned_data = re.sub(r'[^0-9~*]', '', field_data.strip())
                                 field["FIELDDATA"] = cleaned_data
-                        
-                        # Process "QUESTION BOOKLET NUMBER ICR"
-                        elif field["FIELD"].upper() == "QUESTION BOOKLET NUMBER":
-                            # Remove leading/trailing spaces and keep only digits, ~ and *
-                            cleaned_data = re.sub(r'[^0-9~*]', '', field_data.strip())
-                            # Insert a hyphen after the first 2 digits
-                            if len(cleaned_data) > 2:
-                                field["FIELDDATA"] = cleaned_data[:2] + "-" + cleaned_data[2:]
-                            else:
+                            
+                            # Process "ROLL NUMBER ICR"
+                            elif field["FIELD"].upper() == "ROLL NUMBER":
+                                # Remove leading/trailing spaces and keep only digits, ~ and *
+                                cleaned_data = re.sub(r'[^0-9~*]', '', field_data.strip())
+                                # Insert a space after the first 6 digits
+                                if len(cleaned_data) > 6:
+                                    field["FIELDDATA"] = cleaned_data[:6] + " " + cleaned_data[6:]
+                                else:
+                                    field["FIELDDATA"] = cleaned_data
+                            
+                            # Process "QUESTION BOOKLET NUMBER ICR"
+                            elif field["FIELD"].upper() == "QUESTION BOOKLET NUMBER":
+                                # Remove leading/trailing spaces and keep only digits, ~ and *
+                                cleaned_data = re.sub(r'[^0-9~*]', '', field_data.strip())
+                                # Insert a hyphen after the first 2 digits
+                                if len(cleaned_data) > 2:
+                                    field["FIELDDATA"] = cleaned_data[:2] + "-" + cleaned_data[2:]
+                                else:
+                                    field["FIELDDATA"] = cleaned_data
+
+                        # Check for both ICR specific fields
+                        if field.get("FIELD") in key_fields_icr_list:
+                            field_data = field.get("FIELDDATA", "")
+                            
+                            # Process "REGISTRATION NUMBER ICR"
+                            if field["FIELD"].upper() == "REGISTRATION NUMBER ICR":
+                                # Remove leading/trailing spaces and keep only digits, ~ and *
+                                cleaned_data = re.sub(r'[^0-9~*]', '', field_data.strip())
                                 field["FIELDDATA"] = cleaned_data
+                            
+                            # Process "ROLL NUMBER ICR"
+                            elif field["FIELD"].upper() == "ROLL NUMBER ICR":
+                                # Remove leading/trailing spaces and keep only digits, ~ and *
+                                cleaned_data = re.sub(r'[^0-9~*]', '', field_data.strip())
+                                # Insert a space after the first 6 digits
+                                if len(cleaned_data) > 6:
+                                    field["FIELDDATA"] = cleaned_data[:6] + " " + cleaned_data[6:]
+                                else:
+                                    field["FIELDDATA"] = cleaned_data
+                            
+                            # Process "QUESTION BOOKLET NUMBER ICR"
+                            elif field["FIELD"].upper() == "QUESTION BOOKLET NUMBER ICR":
+                                # Remove leading/trailing spaces and keep only digits, ~ and *
+                                cleaned_data = re.sub(r'[^0-9~*]', '', field_data.strip())
+                                # Insert a hyphen after the first 2 digits
+                                if len(cleaned_data) > 2:
+                                    field["FIELDDATA"] = cleaned_data[:2] + "-" + cleaned_data[2:]
+                                else:
+                                    field["FIELDDATA"] = cleaned_data
+                                    
+    else:
+        print(f"|ERROR| Template name mismatch. Expected '{template_name}', but found '{json_data.get('TEMPLATE')}' from the file.")
+        return
 
     # Create the output folder if it doesn't exist
     output_dir = os.path.dirname(output_file_path)
@@ -138,7 +344,7 @@ def process_omr_data(json_file_path, key_fields_path, template_name, output_file
     with open(output_file_path, 'w') as f:
         json.dump(processed_json_data, f, indent=4)
     
-    print(f"Output: Successfully processed data and saved the output to '{output_file_path}'.")
+    # print(f"Output: Successfully processed data and saved the output to '{output_file_path}'.")
     return output_file_path
 
 
@@ -159,10 +365,10 @@ def process_key_coordinates(field_mappings_path, key_fields_path, output_path):
         with open(key_fields_path, 'r') as f:
             key_fields = json.load(f)
     except FileNotFoundError as e:
-        print(f"Error: A file was not found. {e}")
+        print(f"|ERROR| A file was not found. {e}")
         return
     except json.JSONDecodeError as e:
-        print(f"Error: A file is not a valid JSON. {e}")
+        print(f"|ERROR| A file is not a valid JSON. {e}")
         return
 
     results = {}
@@ -225,7 +431,7 @@ def process_key_coordinates(field_mappings_path, key_fields_path, output_path):
     with open(output_path, 'w') as f:
         json.dump(results, f, indent=4)
 
-    print(f"Output: Successfully extracted key field coordinates and saved to '{output_path}'.")
+    # print(f"Output: Successfully extracted key field coordinates and saved to '{output_path}'.")
     return output_path
 
 
@@ -248,10 +454,10 @@ def update_key_field_dimensions(output_json_path, key_field_coordinates_path, ke
         with open(key_fields_path, 'r') as f:
             key_fields = json.load(f)
     except FileNotFoundError as e:
-        print(f"Error: A file was not found. {e}")
+        print(f"|ERROR| A file was not found. {e}")
         return
     except json.JSONDecodeError as e:
-        print(f"Error: A file is not a valid JSON. {e}")
+        print(f"|ERROR| A file is not a valid JSON. {e}")
         return
     
     # Invert the key_fields dictionary for easy lookup (e.g., {"REGISTRATION NUMBER": "key0"})
@@ -297,11 +503,84 @@ def update_key_field_dimensions(output_json_path, key_field_coordinates_path, ke
     try:
         with open(output_json_path, 'w') as f:
             json.dump(output_data, f, indent=4)
-        print(f"Output: Successfully updated key field dimensions and saved to '{output_json_path}'.")
+        # print(f"Output: Successfully updated key field dimensions and saved to '{output_json_path}'.")
     except Exception as e:
         print(f"Error: Could not save the updated file. {e}")
     
     return output_json_path
+
+
+def update_field_names_for_omr(json_file_path, key_fields_path):
+    """
+    Updates the field names in the output JSON file to match the key fields
+    defined in the key_fields.json file.
+
+    Args:
+        json_file_path (str): Path to the main output JSON file.
+        key_fields_path (str): Path to the JSON file with key field mappings.
+    """
+    # print(f"Debug: Starting to update field names in '{json_file_path}' using key fields from '{key_fields_path}'...")
+    try:
+        with open(json_file_path, 'r') as f:
+            json_data = json.load(f)
+    except FileNotFoundError:
+        print(f"|ERROR| The file '{json_file_path}' was not found.")
+        return
+    except json.JSONDecodeError:
+        print(f"|ERROR| The file '{json_file_path}' is not a valid JSON file.")
+        return
+    
+    try:
+        with open(key_fields_path, 'r') as f:
+            key_fields = json.load(f)
+    except FileNotFoundError:
+        print(f"|ERROR| The file '{key_fields_path}' was not found.")
+        return
+    except json.JSONDecodeError:
+        print(f"|ERROR| The file '{key_fields_path}' is not a valid JSON file.")
+        return
+    
+    # Create a deep copy to avoid modifying the original data directly
+    processed_json_data = json.loads(json.dumps(json_data))
+
+    # Create key fields list
+    key_fields_list = []
+    for key, value in key_fields.items():
+        if isinstance(value, str):
+            key_fields_list.append(value)
+        elif isinstance(value, list):
+            for item in value:
+                if isinstance(item, str):
+                    key_fields_list.append(item)
+
+    # Iterate through each image
+    if "IMAGES" in processed_json_data and isinstance(processed_json_data["IMAGES"], list):
+        for image in processed_json_data["IMAGES"]:
+            # Iterate through each field in the image
+            if "FIELDS" in image and isinstance(image["FIELDS"], list):
+                for field in image["FIELDS"]:
+                    field_name = field.get("FIELD", "")
+                    # Check for both OMR specific fields
+                    if field_name in key_fields_list and not field_name.endswith(" OMR"):
+                        # Appending " OMR" to the field name
+                        field["FIELD"] += " OMR"
+
+    try:
+        output_dir = os.path.dirname(json_file_path)
+        if output_dir:
+            os.makedirs(output_dir, exist_ok=True)
+
+        with open(json_file_path, 'w') as f:
+            json.dump(processed_json_data, f, indent=4)
+
+        return json_file_path
+
+    except OSError as e:
+        print(f"|ERROR| OS error while saving file: {e}")
+    except Exception as e:
+        print(f"|ERROR| Unexpected error while saving file: {e}")
+
+    return None
 
 
 # def main():
@@ -381,28 +660,37 @@ def update_key_field_dimensions(output_json_path, key_field_coordinates_path, ke
 #     main()
 
 
-# def json_restructure(base_folder, omr_template_name, date, batch_name):
+def json_restructure(base_folder, omr_template_name, date, batch_name):
     
-#     # Path setup for function calls
-#     output_json_path = os.path.join(base_folder, "Images", omr_template_name, date, "Output", batch_name, f"{batch_name}.json")
-#     field_mappings_path = os.path.join(base_folder, "Images", omr_template_name, date, "Output", batch_name, "annotate_" + batch_name, "field_mappings.json")
-#     key_fields_path = os.path.join(base_folder, "Annotations", omr_template_name, "key_fields.json")
-#     key_fields_coordinates_output_path = os.path.join(base_folder, "Images", omr_template_name, date, "Output", batch_name, "annotate_" + "batch_name", "key_fields_coordinates.json")
+    # Path setup for function calls
+    output_json_path = os.path.join(base_folder, "Images", omr_template_name, date, "Output", batch_name, f"{batch_name}.json")
+    field_mappings_path = os.path.join(base_folder, "Images", omr_template_name, date, "Output", batch_name, "annotate_" + batch_name, "field_mappings.json")
+    key_fields_path = os.path.join(base_folder, "Annotations", omr_template_name, "key_fields.json")
+    key_fields_coordinates_output_path = os.path.join(base_folder, "Images", omr_template_name, date, "Output", batch_name, "annotate_" + batch_name, "key_fields_coordinates.json")
     
-#     # Function calls
-#     output_file_path = process_omr_data(
-#         json_file_path=output_json_path,
-#         key_fields_path=key_fields_path,
-#         template_name=omr_template_name,
-#         output_file_path=output_json_path) # Both INPUT and OUTPUT path are same so as to make the changes directly into the original file
-    
-#     coordinates_output_path = process_key_coordinates(
-#         field_mappings_path=field_mappings_path,
-#         key_fields_path=key_fields_path,
-#         output_path=key_fields_coordinates_output_path) # OUTPUT is saved to the same folder as key_fields.json for easier access and error proofing
+    output_file_path = process_omr_data(
+        json_file_path=output_json_path, 
+        key_fields_path=key_fields_path, 
+        template_name=omr_template_name, 
+        output_file_path=output_json_path)
+    # print(f"Debug: Output File Path: {output_file_path}")
 
-#     updated_output_file_path = update_key_field_dimensions(
-#         output_json_path=output_file_path,
-#         key_field_coordinates_path=coordinates_output_path,
-#         key_fields_path=key_fields_path
-#     )
+    key_fields_coordinates_output_path = process_key_coordinates(
+        field_mappings_path=field_mappings_path, 
+        key_fields_path=key_fields_path, 
+        output_path=key_fields_coordinates_output_path)
+    # print(f"Debug: Coordinates Output Path: {key_fields_coordinates_output_path}")
+
+    # NEW: Call the function to update the dimensions in the output JSON
+    path = update_key_field_dimensions(
+        output_json_path=output_file_path,
+        key_field_coordinates_path=key_fields_coordinates_output_path,
+        key_fields_path=key_fields_path
+    )
+    # print(f"Debug: Fully Updated Output File Path: {path}")
+
+    final = update_field_names_for_omr(
+        json_file_path=path,
+        key_fields_path=key_fields_path
+    )
+    # print(f"Debug: Final Output File Path: {final}")
