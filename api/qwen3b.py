@@ -39,6 +39,7 @@ MODEL_NAME = "Qwen/Qwen2.5-VL-3B-Instruct"
 # This function handles the loading of the large Qwen-VL model into memory.
 # It uses 4-bit quantization (BitsAndBytesConfig) to reduce memory usage,
 # and attempts to load the model onto a GPU if available.
+
 def _load_qwen_model_and_processor():
     """Loads the Qwen-VL model and processor using GPU if available."""
     global _model, _processor
@@ -58,23 +59,48 @@ def _load_qwen_model_and_processor():
     )
 
     print(f"[INFO] Loading model: {MODEL_NAME}")
+    
     # Determine if CUDA (GPU) is available; otherwise, fall back to CPU.
-    device = "cuda" if torch.cuda.is_available() else "cpu"
+    # device = "cuda" if torch.cuda.is_available() else "cpu"
+    device = torch.device("cuda:1" if torch.cuda.is_available() else "cpu") # 0 for Titan V and 1 for 1080 Ti
+    
     # Use float16 on GPU for efficiency, float32 on CPU.
-    dtype = torch.float16 if device == "cuda" else torch.float32
+    # dtype = torch.float16 if device == "cuda" else torch.float32
+    dtype = torch.float16 if torch.cuda.is_available() else torch.float32
+
+    # Get device name if using CUDA
+    device_name = (
+        torch.cuda.get_device_name(device.index)
+        if device.type == "cuda"
+        else "CPU"
+    )
+
+    print(f"[INFO] Target device: {device} ({device_name})")
+    print(f"[INFO] Torch dtype: {dtype}")
 
     try:
         # Load the processor (tokenizer and image preprocessor)
         _processor = AutoProcessor.from_pretrained(MODEL_NAME)
+        
         # Load the vision-to-sequence model with specified dtype, device, and quantization.
+        # _model = AutoModelForVision2Seq.from_pretrained(
+        #     MODEL_NAME,
+        #     torch_dtype=dtype,
+        #     device_map="auto" if device == "cuda" else "cpu", # Automatically map model layers to available devices
+        #     quantization_config=bnb_config
+        # )
+        
         _model = AutoModelForVision2Seq.from_pretrained(
             MODEL_NAME,
             torch_dtype=dtype,
-            device_map="auto" if device == "cuda" else "cpu", # Automatically map model layers to available devices
+            device_map={"": device},  # Force full model onto GPU 0
             quantization_config=bnb_config
         )
+        
         _model.eval() # Set the model to evaluation mode (disables dropout, etc.)
-        print(f"[INFO] Model loaded successfully on {device.upper()} using dtype: {dtype}.")
+        # print(f"[INFO] Model loaded successfully on {device.upper()} using dtype: {dtype}.")
+        print(f"[INFO] Model loaded successfully on {device} ({device_name}) using dtype: {dtype}")
+    
     except Exception as e:
         print(f"[ERROR] Failed to load model {MODEL_NAME}: {e}")
         # Clear model and processor on failure to indicate an issue.
