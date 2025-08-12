@@ -4,12 +4,16 @@ from modules.markedOption import process_marked_options
 from modules.runRequest import process_icr_requests
 from modules.jsonUtils import json_restructure
 import os, re, sys, json
+import time
 
 def load_config(path="config.json"):
     with open(path) as f:
         return json.load(f)
 
 if __name__ == "__main__":
+    
+    start_time = time.time()
+
     # Require at least 3 positional args
     if len(sys.argv) < 4:
         print("Usage: python main.py <omr_template_name> <date> <batch_name> [--save-anchor] [--save-mapped] "
@@ -51,6 +55,8 @@ if __name__ == "__main__":
     print(f"|INFO| Marked options processed. "
         f"Images: {marked_stats['processed_images']}, "
         f"Detected fields: {marked_stats['total_detected_fields']}")
+    
+    print(f"|INFO| Execution time before ICR: {time.time() - start_time:.2f} seconds")
 
     # Process ICR requests for the batch
     # batch_name.json = os.path.join(base_folder, "Images", omr_template_name, date, "Output", {batch_name}, f"{batch_name}.json")
@@ -61,37 +67,6 @@ if __name__ == "__main__":
     # ----- Wrishav's utils.py usage -----
     
     json_restructure(base_folder, omr_template_name, date, batch_name)
-    
-    # # Importing base packages
-    # import os
-    # import re
-    # import json
+    print(f"|INFO| JSON restructuring completed for {batch_name}.")
 
-    # # Importing custom packages
-    # from modules.jsonUtils import json_restructure
-
-    # # Path setup for function calls
-    # omr_template_name = omr_template_name
-    # base_folder = "D:\\Projects\\OMR\\new_abhigyan\\Restructure"
-    # output_json_path = os.path.join(base_folder, "Images", omr_template_name, date, "Output", {batch_name}, f"{batch_name}.json")
-    # field_mappings_path = os.path.join(base_folder, "Images", omr_template_name, date, "Output", batch_name, "annotate_" + "batch_name", "field_mappings.json")
-    # key_fields_path = os.path.join(base_folder, "Annotations", omr_template_name, "key_fields.json")
-    # key_fields_coordinates_output_path = os.path.join(base_folder, "Annotations", omr_template_name, "key_fields_coordinates.json")
-
-    # # Function calls
-    # output_file_path = process_omr_data(
-    #     json_file_path=output_json_path,
-    #     key_fields_path=key_fields_path,
-    #     template_name=omr_template_name,
-    #     output_file_path=output_json_path) # Both INPUT and OUTPUT path are same so as to make the changes directly into the original file
-    
-    # coordinates_output_path = process_key_coordinates(
-    #     field_mappings_path=field_mappings_path,
-    #     key_fields_path=key_fields_path,
-    #     output_path=key_fields_coordinates_output_path) # OUTPUT is saved to the same folder as key_fields.json for easier access and error proofing
-
-    # updated_output_file_path=update_key_field_dimensions(
-    #     output_json_path=output_file_path,
-    #     key_field_coordinates_path=coordinates_output_path,
-    #     key_fields_path=key_fields_path
-    # )
+    print(f"|INFO| Total execution time: {time.time() - start_time:.2f} seconds")
