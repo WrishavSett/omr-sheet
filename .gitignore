@@ -1,3 +1,4 @@
 .venv/
 __pycache__/
 ipynb_checkpoints/
+models/models--Qwen--Qwen2.5-VL-3B-Instruct/
