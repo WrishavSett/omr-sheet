@@ -1,0 +1,7514 @@
+{
+    "batch_name": "BE24-06-03",
+    "batch_full_path": "D:\\Wrishav\\omr-sheet\\omr\\SAROJ\\ASSAM\\BE24-06-03",
+    "processed_images": {
+        "BE24-06-03001.jpg": {
+            "question_1": [
+                "1C"
+            ],
+            "question_2": [
+                "2C"
+            ],
+            "question_3": [
+                "3D"
+            ],
+            "question_4": [
+                "4D"
+            ],
+            "question_5": [
+                "5B"
+            ],
+            "question_6": [
+                "6B"
+            ],
+            "question_7": [
+                "7B"
+            ],
+            "question_8": [
+                "8C"
+            ],
+            "question_9": [
+                "9D"
+            ],
+            "question_10": [
+                "10C"
+            ],
+            "question_11": [
+                "11A"
+            ],
+            "question_12": [
+                "12D"
+            ],
+            "question_13": [
+                "13C"
+            ],
+            "question_14": [
+                "14A"
+            ],
+            "question_15": [
+                "15C"
+            ],
+            "question_16": [
+                "16B"
+            ],
+            "question_17": [
+                "17C"
+            ],
+            "question_18": [
+                "18C"
+            ],
+            "question_19": [
+                "19A"
+            ],
+            "question_20": [
+                "20A"
+            ],
+            "question_21": [
+                "21B"
+            ],
+            "question_22": [
+                "22D"
+            ],
+            "question_23": [
+                "23C"
+            ],
+            "question_24": null,
+            "question_25": [
+                "25A"
+            ],
+            "question_26": [
+                "26A"
+            ],
+            "question_27": [
+                "27B"
+            ],
+            "question_28": [
+                "28B"
+            ],
+            "question_29": [
+                "29A"
+            ],
+            "question_30": [
+                "30B"
+            ],
+            "question_31": [
+                "31C"
+            ],
+            "question_32": [
+                "32A"
+            ],
+            "question_33": [
+                "33D"
+            ],
+            "question_34": [
+                "34C"
+            ],
+            "question_35": [
+                "35D"
+            ],
+            "question_36": [
+                "36C"
+            ],
+            "question_37": [
+                "37C"
+            ],
+            "question_38": [
+                "38C"
+            ],
+            "question_39": [
+                "39C"
+            ],
+            "question_40": [
+                "40B"
+            ],
+            "question_41": [
+                "41B"
+            ],
+            "question_42": [
+                "42D"
+            ],
+            "question_43": [
+                "43D"
+            ],
+            "question_44": [
+                "44A"
+            ],
+            "question_45": [
+                "45C"
+            ],
+            "question_46": [
+                "46C"
+            ],
+            "question_47": [
+                "47D"
+            ],
+            "question_48": [
+                "48D"
+            ],
+            "question_49": [
+                "49A"
+            ],
+            "question_50": [
+                "50C"
+            ],
+            "reg_no": null,
+            "roll_no": "24012015126",
+            "booklet_no": "-0"
+        },
+        "BE24-06-03002.jpg": {
+            "question_1": [
+                "1A"
+            ],
+            "question_2": [
+                "2C"
+            ],
+            "question_3": [
+                "3B"
+            ],
+            "question_4": [
+                "4A"
+            ],
+            "question_5": [
+                "5B"
+            ],
+            "question_6": [
+                "6B"
+            ],
+            "question_7": [
+                "7C"
+            ],
+            "question_8": [
+                "8A"
+            ],
+            "question_9": [
+                "9C"
+            ],
+            "question_10": [
+                "10D"
+            ],
+            "question_11": [
+                "11B"
+            ],
+            "question_12": [
+                "12B"
+            ],
+            "question_13": [
+                "13B"
+            ],
+            "question_14": [
+                "14D"
+            ],
+            "question_15": [
+                "15B"
+            ],
+            "question_16": [
+                "16D"
+            ],
+            "question_17": [
+                "17B"
+            ],
+            "question_18": [
+                "18B"
+            ],
+            "question_19": [
+                "19D"
+            ],
+            "question_20": [
+                "20D"
+            ],
+            "question_21": [
+                "21A"
+            ],
+            "question_22": [
+                "22B"
+            ],
+            "question_23": [
+                "23A"
+            ],
+            "question_24": [
+                "24A"
+            ],
+            "question_25": [
+                "25D"
+            ],
+            "question_26": [
+                "26B"
+            ],
+            "question_27": [
+                "27D"
+            ],
+            "question_28": [
+                "28A"
+            ],
+            "question_29": [
+                "29B"
+            ],
+            "question_30": [
+                "30D"
+            ],
+            "question_31": [
+                "31C"
+            ],
+            "question_32": [
+                "32B"
+            ],
+            "question_33": [
+                "33C"
+            ],
+            "question_34": [
+                "34C"
+            ],
+            "question_35": [
+                "35A"
+            ],
+            "question_36": [
+                "36B"
+            ],
+            "question_37": [
+                "37B"
+            ],
+            "question_38": [
+                "38C"
+            ],
+            "question_39": [
+                "39C"
+            ],
+            "question_40": [
+                "40B"
+            ],
+            "question_41": [
+                "41C"
+            ],
+            "question_42": [
+                "42C"
+            ],
+            "question_43": [
+                "43B"
+            ],
+            "question_44": [
+                "44D"
+            ],
+            "question_45": [
+                "45B"
+            ],
+            "question_46": [
+                "46A"
+            ],
+            "question_47": [
+                "47C"
+            ],
+            "question_48": [
+                "48A"
+            ],
+            "question_49": [
+                "49D"
+            ],
+            "question_50": [
+                "50D"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205127",
+            "booklet_no": "0-"
+        },
+        "BE24-06-03003.jpg": {
+            "question_1": [
+                "1B"
+            ],
+            "question_2": [
+                "2D"
+            ],
+            "question_3": [
+                "3D"
+            ],
+            "question_4": [
+                "4C"
+            ],
+            "question_5": [
+                "5B"
+            ],
+            "question_6": [
+                "6D"
+            ],
+            "question_7": [
+                "7B"
+            ],
+            "question_8": [
+                "8A"
+            ],
+            "question_9": [
+                "9D"
+            ],
+            "question_10": [
+                "10C"
+            ],
+            "question_11": [
+                "11A"
+            ],
+            "question_12": [
+                "12A"
+            ],
+            "question_13": [
+                "13B"
+            ],
+            "question_14": [
+                "14A"
+            ],
+            "question_15": [
+                "15B"
+            ],
+            "question_16": [
+                "16D"
+            ],
+            "question_17": [
+                "17C"
+            ],
+            "question_18": [
+                "18D"
+            ],
+            "question_19": [
+                "19C"
+            ],
+            "question_20": [
+                "20A"
+            ],
+            "question_21": [
+                "21B"
+            ],
+            "question_22": [
+                "22C"
+            ],
+            "question_23": [
+                "23A"
+            ],
+            "question_24": [
+                "24B"
+            ],
+            "question_25": [
+                "25D"
+            ],
+            "question_26": [
+                "26A"
+            ],
+            "question_27": [
+                "27D"
+            ],
+            "question_28": [
+                "28A"
+            ],
+            "question_29": [
+                "29C"
+            ],
+            "question_30": [
+                "30A"
+            ],
+            "question_31": [
+                "31C"
+            ],
+            "question_32": [
+                "32A"
+            ],
+            "question_33": [
+                "33A",
+                "33D"
+            ],
+            "question_34": [
+                "34B"
+            ],
+            "question_35": [
+                "35B"
+            ],
+            "question_36": [
+                "36A"
+            ],
+            "question_37": [
+                "37D"
+            ],
+            "question_38": [
+                "38C"
+            ],
+            "question_39": [
+                "39C"
+            ],
+            "question_40": [
+                "40B"
+            ],
+            "question_41": [
+                "41B"
+            ],
+            "question_42": [
+                "42D"
+            ],
+            "question_43": [
+                "43D"
+            ],
+            "question_44": [
+                "44C"
+            ],
+            "question_45": [
+                "45C"
+            ],
+            "question_46": [
+                "46B"
+            ],
+            "question_47": [
+                "47C"
+            ],
+            "question_48": [
+                "48B"
+            ],
+            "question_49": [
+                "49A"
+            ],
+            "question_50": [
+                "50D"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205128",
+            "booklet_no": "-0"
+        },
+        "BE24-06-03004.jpg": {
+            "question_1": [
+                "1A"
+            ],
+            "question_2": [
+                "2C"
+            ],
+            "question_3": [
+                "3C"
+            ],
+            "question_4": [
+                "4C"
+            ],
+            "question_5": [
+                "5B"
+            ],
+            "question_6": [
+                "6B"
+            ],
+            "question_7": [
+                "7C"
+            ],
+            "question_8": [
+                "8D"
+            ],
+            "question_9": [
+                "9C"
+            ],
+            "question_10": [
+                "10D"
+            ],
+            "question_11": [
+                "11C"
+            ],
+            "question_12": [
+                "12D"
+            ],
+            "question_13": [
+                "13D"
+            ],
+            "question_14": [
+                "14A"
+            ],
+            "question_15": [
+                "15B"
+            ],
+            "question_16": [
+                "16D"
+            ],
+            "question_17": [
+                "17B"
+            ],
+            "question_18": [
+                "18A"
+            ],
+            "question_19": [
+                "19B"
+            ],
+            "question_20": [
+                "20C"
+            ],
+            "question_21": [
+                "21A"
+            ],
+            "question_22": [
+                "22D"
+            ],
+            "question_23": [
+                "23B"
+            ],
+            "question_24": [
+                "24C"
+            ],
+            "question_25": [
+                "25A"
+            ],
+            "question_26": [
+                "26B"
+            ],
+            "question_27": null,
+            "question_28": null,
+            "question_29": [
+                "29B"
+            ],
+            "question_30": [
+                "30D"
+            ],
+            "question_31": [
+                "31A"
+            ],
+            "question_32": [
+                "32B"
+            ],
+            "question_33": [
+                "33A"
+            ],
+            "question_34": [
+                "34D"
+            ],
+            "question_35": [
+                "35A"
+            ],
+            "question_36": [
+                "36C"
+            ],
+            "question_37": [
+                "37C"
+            ],
+            "question_38": [
+                "38C"
+            ],
+            "question_39": [
+                "39B"
+            ],
+            "question_40": [
+                "40D"
+            ],
+            "question_41": [
+                "41C"
+            ],
+            "question_42": [
+                "42C"
+            ],
+            "question_43": null,
+            "question_44": [
+                "44D"
+            ],
+            "question_45": [
+                "45B"
+            ],
+            "question_46": [
+                "46A"
+            ],
+            "question_47": [
+                "47B"
+            ],
+            "question_48": [
+                "48D"
+            ],
+            "question_49": [
+                "49D"
+            ],
+            "question_50": [
+                "50A"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205129",
+            "booklet_no": "0-"
+        },
+        "BE24-06-03005.jpg": {
+            "question_1": null,
+            "question_2": [
+                "2D"
+            ],
+            "question_3": [
+                "3D"
+            ],
+            "question_4": [
+                "4A"
+            ],
+            "question_5": [
+                "5B"
+            ],
+            "question_6": [
+                "6D"
+            ],
+            "question_7": [
+                "7B"
+            ],
+            "question_8": [
+                "8C"
+            ],
+            "question_9": [
+                "9D"
+            ],
+            "question_10": [
+                "10C"
+            ],
+            "question_11": [
+                "11A"
+            ],
+            "question_12": [
+                "12C"
+            ],
+            "question_13": [
+                "13B"
+            ],
+            "question_14": [
+                "14A"
+            ],
+            "question_15": [
+                "15B"
+            ],
+            "question_16": [
+                "16B"
+            ],
+            "question_17": [
+                "17C"
+            ],
+            "question_18": [
+                "18C"
+            ],
+            "question_19": [
+                "19C"
+            ],
+            "question_20": [
+                "20C"
+            ],
+            "question_21": null,
+            "question_22": [
+                "22C"
+            ],
+            "question_23": [
+                "23A"
+            ],
+            "question_24": [
+                "24B"
+            ],
+            "question_25": [
+                "25D"
+            ],
+            "question_26": null,
+            "question_27": [
+                "27C"
+            ],
+            "question_28": [
+                "28B"
+            ],
+            "question_29": [
+                "29C"
+            ],
+            "question_30": [
+                "30A"
+            ],
+            "question_31": [
+                "31C"
+            ],
+            "question_32": [
+                "32B"
+            ],
+            "question_33": [
+                "33D"
+            ],
+            "question_34": [
+                "34A"
+            ],
+            "question_35": null,
+            "question_36": [
+                "36C"
+            ],
+            "question_37": [
+                "37C"
+            ],
+            "question_38": [
+                "38A"
+            ],
+            "question_39": [
+                "39C"
+            ],
+            "question_40": [
+                "40B"
+            ],
+            "question_41": [
+                "41B"
+            ],
+            "question_42": [
+                "42C"
+            ],
+            "question_43": [
+                "43D"
+            ],
+            "question_44": [
+                "44C"
+            ],
+            "question_45": [
+                "45C"
+            ],
+            "question_46": [
+                "46D"
+            ],
+            "question_47": [
+                "47D"
+            ],
+            "question_48": [
+                "48B"
+            ],
+            "question_49": [
+                "49A"
+            ],
+            "question_50": [
+                "50D"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205131",
+            "booklet_no": "-0"
+        },
+        "BE24-06-03006.jpg": {
+            "question_1": [
+                "1A"
+            ],
+            "question_2": [
+                "2D"
+            ],
+            "question_3": [
+                "3B"
+            ],
+            "question_4": [
+                "4A"
+            ],
+            "question_5": [
+                "5C"
+            ],
+            "question_6": [
+                "6C"
+            ],
+            "question_7": [
+                "7C"
+            ],
+            "question_8": [
+                "8A"
+            ],
+            "question_9": [
+                "9C"
+            ],
+            "question_10": [
+                "10C"
+            ],
+            "question_11": [
+                "11B"
+            ],
+            "question_12": [
+                "12D"
+            ],
+            "question_13": [
+                "13D"
+            ],
+            "question_14": [
+                "14D"
+            ],
+            "question_15": [
+                "15B"
+            ],
+            "question_16": [
+                "16D"
+            ],
+            "question_17": [
+                "17B"
+            ],
+            "question_18": [
+                "18B"
+            ],
+            "question_19": [
+                "19D"
+            ],
+            "question_20": [
+                "20A"
+            ],
+            "question_21": null,
+            "question_22": null,
+            "question_23": null,
+            "question_24": [
+                "24C"
+            ],
+            "question_25": null,
+            "question_26": null,
+            "question_27": null,
+            "question_28": null,
+            "question_29": null,
+            "question_30": null,
+            "question_31": [
+                "31B"
+            ],
+            "question_32": null,
+            "question_33": [
+                "33A"
+            ],
+            "question_34": [
+                "34D"
+            ],
+            "question_35": null,
+            "question_36": null,
+            "question_37": null,
+            "question_38": null,
+            "question_39": null,
+            "question_40": null,
+            "question_41": [
+                "41C"
+            ],
+            "question_42": null,
+            "question_43": null,
+            "question_44": null,
+            "question_45": null,
+            "question_46": null,
+            "question_47": [
+                "47D"
+            ],
+            "question_48": [
+                "48C"
+            ],
+            "question_49": null,
+            "question_50": null,
+            "reg_no": null,
+            "roll_no": "2401205132",
+            "booklet_no": "0-"
+        },
+        "BE24-06-03007.jpg": {
+            "question_1": [
+                "1D"
+            ],
+            "question_2": [
+                "2D"
+            ],
+            "question_3": [
+                "3D"
+            ],
+            "question_4": [
+                "4C"
+            ],
+            "question_5": [
+                "5B"
+            ],
+            "question_6": [
+                "6D"
+            ],
+            "question_7": [
+                "7B"
+            ],
+            "question_8": [
+                "8A"
+            ],
+            "question_9": [
+                "9B"
+            ],
+            "question_10": [
+                "10C"
+            ],
+            "question_11": [
+                "11A"
+            ],
+            "question_12": [
+                "12C"
+            ],
+            "question_13": [
+                "13A"
+            ],
+            "question_14": [
+                "14A"
+            ],
+            "question_15": [
+                "15C"
+            ],
+            "question_16": [
+                "16C"
+            ],
+            "question_17": [
+                "17C"
+            ],
+            "question_18": [
+                "18A"
+            ],
+            "question_19": [
+                "19C"
+            ],
+            "question_20": [
+                "20C"
+            ],
+            "question_21": [
+                "21B"
+            ],
+            "question_22": [
+                "22C"
+            ],
+            "question_23": [
+                "23C"
+            ],
+            "question_24": [
+                "24C"
+            ],
+            "question_25": [
+                "25A"
+            ],
+            "question_26": [
+                "26A"
+            ],
+            "question_27": [
+                "27B"
+            ],
+            "question_28": [
+                "28B"
+            ],
+            "question_29": [
+                "29B"
+            ],
+            "question_30": [
+                "30A"
+            ],
+            "question_31": [
+                "31C"
+            ],
+            "question_32": null,
+            "question_33": [
+                "33C"
+            ],
+            "question_34": [
+                "34A"
+            ],
+            "question_35": [
+                "35B"
+            ],
+            "question_36": [
+                "36B"
+            ],
+            "question_37": [
+                "37D"
+            ],
+            "question_38": [
+                "38A"
+            ],
+            "question_39": [
+                "39B"
+            ],
+            "question_40": [
+                "40D"
+            ],
+            "question_41": [
+                "41C"
+            ],
+            "question_42": [
+                "42C"
+            ],
+            "question_43": [
+                "43A"
+            ],
+            "question_44": [
+                "44C"
+            ],
+            "question_45": [
+                "45A"
+            ],
+            "question_46": [
+                "46D"
+            ],
+            "question_47": [
+                "47D"
+            ],
+            "question_48": [
+                "48B"
+            ],
+            "question_49": [
+                "49D"
+            ],
+            "question_50": [
+                "50D"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205133",
+            "booklet_no": "-0"
+        },
+        "BE24-06-03008.jpg": {
+            "question_1": [
+                "1B"
+            ],
+            "question_2": [
+                "2B"
+            ],
+            "question_3": [
+                "3D"
+            ],
+            "question_4": [
+                "4A"
+            ],
+            "question_5": [
+                "5B"
+            ],
+            "question_6": [
+                "6D"
+            ],
+            "question_7": [
+                "7A"
+            ],
+            "question_8": [
+                "8B"
+            ],
+            "question_9": [
+                "9C"
+            ],
+            "question_10": [
+                "10C"
+            ],
+            "question_11": [
+                "11A"
+            ],
+            "question_12": [
+                "12C"
+            ],
+            "question_13": [
+                "13C"
+            ],
+            "question_14": [
+                "14C"
+            ],
+            "question_15": [
+                "15A"
+            ],
+            "question_16": [
+                "16B"
+            ],
+            "question_17": [
+                "17C"
+            ],
+            "question_18": [
+                "18C"
+            ],
+            "question_19": [
+                "19A"
+            ],
+            "question_20": [
+                "20B"
+            ],
+            "question_21": [
+                "21A"
+            ],
+            "question_22": [
+                "22C"
+            ],
+            "question_23": [
+                "23C"
+            ],
+            "question_24": [
+                "24C"
+            ],
+            "question_25": [
+                "25D"
+            ],
+            "question_26": [
+                "26A"
+            ],
+            "question_27": [
+                "27B"
+            ],
+            "question_28": [
+                "28B"
+            ],
+            "question_29": [
+                "29D"
+            ],
+            "question_30": [
+                "30A"
+            ],
+            "question_31": [
+                "31C"
+            ],
+            "question_32": [
+                "32B"
+            ],
+            "question_33": [
+                "33B"
+            ],
+            "question_34": [
+                "34A"
+            ],
+            "question_35": [
+                "35B"
+            ],
+            "question_36": [
+                "36C"
+            ],
+            "question_37": [
+                "37D"
+            ],
+            "question_38": [
+                "38C"
+            ],
+            "question_39": [
+                "39C"
+            ],
+            "question_40": [
+                "40B"
+            ],
+            "question_41": [
+                "41D"
+            ],
+            "question_42": [
+                "42D"
+            ],
+            "question_43": [
+                "43A"
+            ],
+            "question_44": [
+                "44C"
+            ],
+            "question_45": [
+                "45C"
+            ],
+            "question_46": [
+                "46B"
+            ],
+            "question_47": [
+                "47D"
+            ],
+            "question_48": [
+                "48B"
+            ],
+            "question_49": [
+                "49A"
+            ],
+            "question_50": [
+                "50C"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205135",
+            "booklet_no": "-0"
+        },
+        "BE24-06-03009.jpg": {
+            "question_1": [
+                "1A"
+            ],
+            "question_2": [
+                "2D"
+            ],
+            "question_3": [
+                "3B"
+            ],
+            "question_4": [
+                "4A"
+            ],
+            "question_5": [
+                "5C"
+            ],
+            "question_6": [
+                "6C"
+            ],
+            "question_7": [
+                "7C"
+            ],
+            "question_8": [
+                "8A"
+            ],
+            "question_9": [
+                "9C"
+            ],
+            "question_10": [
+                "10A"
+            ],
+            "question_11": [
+                "11D"
+            ],
+            "question_12": [
+                "12B"
+            ],
+            "question_13": [
+                "13D"
+            ],
+            "question_14": [
+                "14D"
+            ],
+            "question_15": [
+                "15B"
+            ],
+            "question_16": [
+                "16D"
+            ],
+            "question_17": [
+                "17B"
+            ],
+            "question_18": [
+                "18D"
+            ],
+            "question_19": [
+                "19D"
+            ],
+            "question_20": [
+                "20A"
+            ],
+            "question_21": null,
+            "question_22": null,
+            "question_23": [
+                "23A"
+            ],
+            "question_24": null,
+            "question_25": [
+                "25A"
+            ],
+            "question_26": [
+                "26B"
+            ],
+            "question_27": null,
+            "question_28": [
+                "28C"
+            ],
+            "question_29": null,
+            "question_30": [
+                "30A"
+            ],
+            "question_31": [
+                "31C"
+            ],
+            "question_32": [
+                "32B"
+            ],
+            "question_33": [
+                "33C"
+            ],
+            "question_34": [
+                "34C"
+            ],
+            "question_35": [
+                "35A"
+            ],
+            "question_36": [
+                "36B"
+            ],
+            "question_37": [
+                "37B"
+            ],
+            "question_38": [
+                "38C"
+            ],
+            "question_39": null,
+            "question_40": [
+                "40B"
+            ],
+            "question_41": null,
+            "question_42": [
+                "42C"
+            ],
+            "question_43": null,
+            "question_44": [
+                "44D"
+            ],
+            "question_45": [
+                "45D"
+            ],
+            "question_46": [
+                "46A"
+            ],
+            "question_47": [
+                "47C"
+            ],
+            "question_48": [
+                "48A"
+            ],
+            "question_49": [
+                "49D"
+            ],
+            "question_50": null,
+            "reg_no": null,
+            "roll_no": "2401205136",
+            "booklet_no": "0-"
+        },
+        "BE24-06-03010.jpg": {
+            "question_1": [
+                "1B"
+            ],
+            "question_2": [
+                "2D"
+            ],
+            "question_3": [
+                "3D"
+            ],
+            "question_4": [
+                "4D"
+            ],
+            "question_5": [
+                "5B"
+            ],
+            "question_6": [
+                "6D"
+            ],
+            "question_7": [
+                "7B"
+            ],
+            "question_8": [
+                "8A"
+            ],
+            "question_9": [
+                "9D"
+            ],
+            "question_10": [
+                "10B"
+            ],
+            "question_11": [
+                "11A"
+            ],
+            "question_12": [
+                "12D"
+            ],
+            "question_13": [
+                "13A"
+            ],
+            "question_14": [
+                "14C"
+            ],
+            "question_15": [
+                "15A"
+            ],
+            "question_16": [
+                "16C"
+            ],
+            "question_17": [
+                "17C"
+            ],
+            "question_18": [
+                "18A"
+            ],
+            "question_19": [
+                "19C"
+            ],
+            "question_20": [
+                "20D"
+            ],
+            "question_21": [
+                "21B"
+            ],
+            "question_22": [
+                "22A"
+            ],
+            "question_23": [
+                "23A"
+            ],
+            "question_24": [
+                "24B"
+            ],
+            "question_25": [
+                "25D"
+            ],
+            "question_26": [
+                "26A"
+            ],
+            "question_27": [
+                "27A"
+            ],
+            "question_28": [
+                "28A"
+            ],
+            "question_29": [
+                "29A"
+            ],
+            "question_30": [
+                "30D"
+            ],
+            "question_31": [
+                "31C"
+            ],
+            "question_32": [
+                "32C"
+            ],
+            "question_33": [
+                "33B"
+            ],
+            "question_34": [
+                "34C"
+            ],
+            "question_35": [
+                "35C"
+            ],
+            "question_36": [
+                "36C"
+            ],
+            "question_37": [
+                "37C"
+            ],
+            "question_38": [
+                "38A"
+            ],
+            "question_39": [
+                "39B"
+            ],
+            "question_40": [
+                "40C"
+            ],
+            "question_41": [
+                "41C"
+            ],
+            "question_42": [
+                "42D"
+            ],
+            "question_43": [
+                "43D"
+            ],
+            "question_44": [
+                "44C"
+            ],
+            "question_45": [
+                "45C"
+            ],
+            "question_46": [
+                "46B"
+            ],
+            "question_47": [
+                "47D"
+            ],
+            "question_48": [
+                "48B"
+            ],
+            "question_49": [
+                "49A"
+            ],
+            "question_50": [
+                "50C"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205137",
+            "booklet_no": "-0"
+        },
+        "BE24-06-03011.jpg": {
+            "question_1": [
+                "1A"
+            ],
+            "question_2": [
+                "2A"
+            ],
+            "question_3": [
+                "3B"
+            ],
+            "question_4": [
+                "4A"
+            ],
+            "question_5": [
+                "5B"
+            ],
+            "question_6": [
+                "6B"
+            ],
+            "question_7": [
+                "7C"
+            ],
+            "question_8": [
+                "8D"
+            ],
+            "question_9": [
+                "9C"
+            ],
+            "question_10": [
+                "10D"
+            ],
+            "question_11": [
+                "11B"
+            ],
+            "question_12": [
+                "12B"
+            ],
+            "question_13": [
+                "13D"
+            ],
+            "question_14": [
+                "14A"
+            ],
+            "question_15": [
+                "15B"
+            ],
+            "question_16": [
+                "16D"
+            ],
+            "question_17": [
+                "17B"
+            ],
+            "question_18": [
+                "18A"
+            ],
+            "question_19": [
+                "19D"
+            ],
+            "question_20": [
+                "20D"
+            ],
+            "question_21": [
+                "21A"
+            ],
+            "question_22": [
+                "22C"
+            ],
+            "question_23": [
+                "23A"
+            ],
+            "question_24": [
+                "24C"
+            ],
+            "question_25": [
+                "25D"
+            ],
+            "question_26": [
+                "26B"
+            ],
+            "question_27": [
+                "27C"
+            ],
+            "question_28": [
+                "28A"
+            ],
+            "question_29": [
+                "29B"
+            ],
+            "question_30": [
+                "30D"
+            ],
+            "question_31": [
+                "31A"
+            ],
+            "question_32": [
+                "32B"
+            ],
+            "question_33": [
+                "33C"
+            ],
+            "question_34": [
+                "34D"
+            ],
+            "question_35": [
+                "35A"
+            ],
+            "question_36": [
+                "36B"
+            ],
+            "question_37": [
+                "37C"
+            ],
+            "question_38": [
+                "38C"
+            ],
+            "question_39": [
+                "39B"
+            ],
+            "question_40": [
+                "40D"
+            ],
+            "question_41": [
+                "41C"
+            ],
+            "question_42": [
+                "42C"
+            ],
+            "question_43": [
+                "43B"
+            ],
+            "question_44": [
+                "44C"
+            ],
+            "question_45": [
+                "45B"
+            ],
+            "question_46": [
+                "46A"
+            ],
+            "question_47": [
+                "47C"
+            ],
+            "question_48": [
+                "48B"
+            ],
+            "question_49": [
+                "49D"
+            ],
+            "question_50": [
+                "50B"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205138",
+            "booklet_no": "0-"
+        },
+        "BE24-06-03012.jpg": {
+            "question_1": [
+                "1A"
+            ],
+            "question_2": [
+                "2D"
+            ],
+            "question_3": [
+                "3D"
+            ],
+            "question_4": [
+                "4A"
+            ],
+            "question_5": [
+                "5B"
+            ],
+            "question_6": [
+                "6D"
+            ],
+            "question_7": [
+                "7A"
+            ],
+            "question_8": [
+                "8B"
+            ],
+            "question_9": [
+                "9D"
+            ],
+            "question_10": [
+                "10C"
+            ],
+            "question_11": [
+                "11A"
+            ],
+            "question_12": [
+                "12A"
+            ],
+            "question_13": [
+                "13B"
+            ],
+            "question_14": [
+                "14A"
+            ],
+            "question_15": [
+                "15A"
+            ],
+            "question_16": [
+                "16C"
+            ],
+            "question_17": [
+                "17B"
+            ],
+            "question_18": [
+                "18C"
+            ],
+            "question_19": [
+                "19A"
+            ],
+            "question_20": [
+                "20D"
+            ],
+            "question_21": [
+                "21B"
+            ],
+            "question_22": [
+                "22A"
+            ],
+            "question_23": [
+                "23A"
+            ],
+            "question_24": [
+                "24B"
+            ],
+            "question_25": [
+                "25D"
+            ],
+            "question_26": [
+                "26A"
+            ],
+            "question_27": [
+                "27C"
+            ],
+            "question_28": [
+                "28B"
+            ],
+            "question_29": [
+                "29C"
+            ],
+            "question_30": [
+                "30D"
+            ],
+            "question_31": [
+                "31C"
+            ],
+            "question_32": [
+                "32C"
+            ],
+            "question_33": [
+                "33C"
+            ],
+            "question_34": [
+                "34A"
+            ],
+            "question_35": [
+                "35A"
+            ],
+            "question_36": [
+                "36C"
+            ],
+            "question_37": [
+                "37D"
+            ],
+            "question_38": [
+                "38A"
+            ],
+            "question_39": [
+                "39C"
+            ],
+            "question_40": [
+                "40C"
+            ],
+            "question_41": [
+                "41B"
+            ],
+            "question_42": [
+                "42D"
+            ],
+            "question_43": [
+                "43A"
+            ],
+            "question_44": [
+                "44C"
+            ],
+            "question_45": [
+                "45C"
+            ],
+            "question_46": [
+                "46C"
+            ],
+            "question_47": [
+                "47C"
+            ],
+            "question_48": [
+                "48B"
+            ],
+            "question_49": [
+                "49B"
+            ],
+            "question_50": [
+                "50B"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205139",
+            "booklet_no": "-0"
+        },
+        "BE24-06-03013.jpg": {
+            "question_1": [
+                "1C"
+            ],
+            "question_2": [
+                "2D"
+            ],
+            "question_3": [
+                "3B"
+            ],
+            "question_4": [
+                "4A"
+            ],
+            "question_5": [
+                "5A"
+            ],
+            "question_6": [
+                "6B"
+            ],
+            "question_7": [
+                "7A"
+            ],
+            "question_8": [
+                "8D"
+            ],
+            "question_9": [
+                "9C"
+            ],
+            "question_10": [
+                "10A"
+            ],
+            "question_11": [
+                "11B"
+            ],
+            "question_12": [
+                "12D"
+            ],
+            "question_13": [
+                "13D"
+            ],
+            "question_14": null,
+            "question_15": [
+                "15B"
+            ],
+            "question_16": [
+                "16D"
+            ],
+            "question_17": [
+                "17B"
+            ],
+            "question_18": [
+                "18C"
+            ],
+            "question_19": [
+                "19D"
+            ],
+            "question_20": [
+                "20B"
+            ],
+            "question_21": null,
+            "question_22": [
+                "22C"
+            ],
+            "question_23": [
+                "23B"
+            ],
+            "question_24": [
+                "24C"
+            ],
+            "question_25": [
+                "25A"
+            ],
+            "question_26": [
+                "26A"
+            ],
+            "question_27": [
+                "27B"
+            ],
+            "question_28": [
+                "28A"
+            ],
+            "question_29": [
+                "29C"
+            ],
+            "question_30": [
+                "30D"
+            ],
+            "question_31": [
+                "31A"
+            ],
+            "question_32": [
+                "32B"
+            ],
+            "question_33": null,
+            "question_34": [
+                "34D"
+            ],
+            "question_35": [
+                "35A"
+            ],
+            "question_36": [
+                "36B"
+            ],
+            "question_37": [
+                "37C"
+            ],
+            "question_38": [
+                "38C"
+            ],
+            "question_39": [
+                "39B"
+            ],
+            "question_40": [
+                "40D"
+            ],
+            "question_41": [
+                "41C"
+            ],
+            "question_42": [
+                "42B"
+            ],
+            "question_43": [
+                "43A"
+            ],
+            "question_44": [
+                "44D"
+            ],
+            "question_45": [
+                "45B"
+            ],
+            "question_46": [
+                "46A"
+            ],
+            "question_47": [
+                "47D"
+            ],
+            "question_48": [
+                "48B"
+            ],
+            "question_49": [
+                "49D"
+            ],
+            "question_50": [
+                "50D"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205141",
+            "booklet_no": "0-"
+        },
+        "BE24-06-03014.jpg": {
+            "question_1": [
+                "1B"
+            ],
+            "question_2": [
+                "2D"
+            ],
+            "question_3": [
+                "3D"
+            ],
+            "question_4": [
+                "4C"
+            ],
+            "question_5": [
+                "5B"
+            ],
+            "question_6": [
+                "6D"
+            ],
+            "question_7": [
+                "7B"
+            ],
+            "question_8": [
+                "8C"
+            ],
+            "question_9": [
+                "9D"
+            ],
+            "question_10": [
+                "10C"
+            ],
+            "question_11": [
+                "11A"
+            ],
+            "question_12": [
+                "12D"
+            ],
+            "question_13": [
+                "13A"
+            ],
+            "question_14": [
+                "14B"
+            ],
+            "question_15": [
+                "15B"
+            ],
+            "question_16": [
+                "16C"
+            ],
+            "question_17": [
+                "17C"
+            ],
+            "question_18": [
+                "18B"
+            ],
+            "question_19": [
+                "19C"
+            ],
+            "question_20": [
+                "20A"
+            ],
+            "question_21": [
+                "21D"
+            ],
+            "question_22": [
+                "22C"
+            ],
+            "question_23": [
+                "23D"
+            ],
+            "question_24": [
+                "24C"
+            ],
+            "question_25": [
+                "25A"
+            ],
+            "question_26": [
+                "26D"
+            ],
+            "question_27": [
+                "27D"
+            ],
+            "question_28": [
+                "28B"
+            ],
+            "question_29": [
+                "29D"
+            ],
+            "question_30": [
+                "30A"
+            ],
+            "question_31": [
+                "31C"
+            ],
+            "question_32": [
+                "32A"
+            ],
+            "question_33": [
+                "33C"
+            ],
+            "question_34": [
+                "34B"
+            ],
+            "question_35": [
+                "35C"
+            ],
+            "question_36": [
+                "36D"
+            ],
+            "question_37": [
+                "37C"
+            ],
+            "question_38": [
+                "38A"
+            ],
+            "question_39": [
+                "39B"
+            ],
+            "question_40": [
+                "40B"
+            ],
+            "question_41": [
+                "41C"
+            ],
+            "question_42": [
+                "42D"
+            ],
+            "question_43": [
+                "43A"
+            ],
+            "question_44": [
+                "44C"
+            ],
+            "question_45": [
+                "45C"
+            ],
+            "question_46": [
+                "46D"
+            ],
+            "question_47": [
+                "47D"
+            ],
+            "question_48": [
+                "48B"
+            ],
+            "question_49": [
+                "49A"
+            ],
+            "question_50": [
+                "50D"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205142",
+            "booklet_no": "-0"
+        },
+        "BE24-06-03015.jpg": {
+            "question_1": [
+                "1A"
+            ],
+            "question_2": [
+                "2D"
+            ],
+            "question_3": [
+                "3A"
+            ],
+            "question_4": [
+                "4A"
+            ],
+            "question_5": [
+                "5C"
+            ],
+            "question_6": [
+                "6B"
+            ],
+            "question_7": [
+                "7C"
+            ],
+            "question_8": [
+                "8A"
+            ],
+            "question_9": [
+                "9C"
+            ],
+            "question_10": [
+                "10D"
+            ],
+            "question_11": [
+                "11B"
+            ],
+            "question_12": [
+                "12D"
+            ],
+            "question_13": [
+                "13D"
+            ],
+            "question_14": [
+                "14D"
+            ],
+            "question_15": [
+                "15B"
+            ],
+            "question_16": [
+                "16D"
+            ],
+            "question_17": [
+                "17B"
+            ],
+            "question_18": null,
+            "question_19": [
+                "19B"
+            ],
+            "question_20": [
+                "20C"
+            ],
+            "question_21": null,
+            "question_22": null,
+            "question_23": [
+                "23A"
+            ],
+            "question_24": [
+                "24C"
+            ],
+            "question_25": [
+                "25B"
+            ],
+            "question_26": [
+                "26B"
+            ],
+            "question_27": null,
+            "question_28": null,
+            "question_29": [
+                "29A"
+            ],
+            "question_30": [
+                "30D"
+            ],
+            "question_31": [
+                "31A"
+            ],
+            "question_32": [
+                "32B"
+            ],
+            "question_33": [
+                "33C"
+            ],
+            "question_34": [
+                "34D"
+            ],
+            "question_35": [
+                "35A"
+            ],
+            "question_36": [
+                "36B"
+            ],
+            "question_37": [
+                "37B"
+            ],
+            "question_38": [
+                "38C"
+            ],
+            "question_39": [
+                "39D"
+            ],
+            "question_40": [
+                "40C"
+            ],
+            "question_41": [
+                "41C"
+            ],
+            "question_42": [
+                "42C"
+            ],
+            "question_43": [
+                "43C"
+            ],
+            "question_44": [
+                "44B"
+            ],
+            "question_45": [
+                "45B"
+            ],
+            "question_46": [
+                "46A"
+            ],
+            "question_47": [
+                "47B"
+            ],
+            "question_48": null,
+            "question_49": [
+                "49B"
+            ],
+            "question_50": [
+                "50A"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205143",
+            "booklet_no": "0-"
+        },
+        "BE24-06-03016.jpg": {
+            "question_1": [
+                "1C"
+            ],
+            "question_2": [
+                "2D"
+            ],
+            "question_3": [
+                "3D"
+            ],
+            "question_4": [
+                "4A"
+            ],
+            "question_5": [
+                "5B"
+            ],
+            "question_6": [
+                "6D"
+            ],
+            "question_7": [
+                "7A"
+            ],
+            "question_8": null,
+            "question_9": [
+                "9D"
+            ],
+            "question_10": [
+                "10B"
+            ],
+            "question_11": [
+                "11C"
+            ],
+            "question_12": [
+                "12A"
+            ],
+            "question_13": [
+                "13C"
+            ],
+            "question_14": [
+                "14A"
+            ],
+            "question_15": [
+                "15B"
+            ],
+            "question_16": [
+                "16C"
+            ],
+            "question_17": [
+                "17C"
+            ],
+            "question_18": [
+                "18A"
+            ],
+            "question_19": [
+                "19C"
+            ],
+            "question_20": [
+                "20D"
+            ],
+            "question_21": null,
+            "question_22": [
+                "22A"
+            ],
+            "question_23": null,
+            "question_24": [
+                "24A"
+            ],
+            "question_25": [
+                "25D"
+            ],
+            "question_26": [
+                "26D"
+            ],
+            "question_27": null,
+            "question_28": [
+                "28B"
+            ],
+            "question_29": null,
+            "question_30": [
+                "30A"
+            ],
+            "question_31": [
+                "31C"
+            ],
+            "question_32": [
+                "32D"
+            ],
+            "question_33": [
+                "33C"
+            ],
+            "question_34": [
+                "34A"
+            ],
+            "question_35": [
+                "35B"
+            ],
+            "question_36": [
+                "36C"
+            ],
+            "question_37": [
+                "37D"
+            ],
+            "question_38": [
+                "38A"
+            ],
+            "question_39": [
+                "39B"
+            ],
+            "question_40": [
+                "40B"
+            ],
+            "question_41": [
+                "41B"
+            ],
+            "question_42": null,
+            "question_43": [
+                "43A"
+            ],
+            "question_44": null,
+            "question_45": [
+                "45A"
+            ],
+            "question_46": [
+                "46C"
+            ],
+            "question_47": [
+                "47B"
+            ],
+            "question_48": [
+                "48B"
+            ],
+            "question_49": [
+                "49A"
+            ],
+            "question_50": [
+                "50D"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205144",
+            "booklet_no": "-0"
+        },
+        "BE24-06-03017.jpg": {
+            "question_1": [
+                "1A"
+            ],
+            "question_2": [
+                "2A"
+            ],
+            "question_3": [
+                "3C"
+            ],
+            "question_4": [
+                "4A"
+            ],
+            "question_5": [
+                "5B"
+            ],
+            "question_6": [
+                "6B"
+            ],
+            "question_7": [
+                "7C"
+            ],
+            "question_8": [
+                "8A"
+            ],
+            "question_9": [
+                "9C"
+            ],
+            "question_10": [
+                "10C"
+            ],
+            "question_11": [
+                "11B"
+            ],
+            "question_12": [
+                "12D"
+            ],
+            "question_13": [
+                "13D"
+            ],
+            "question_14": [
+                "14C"
+            ],
+            "question_15": [
+                "15B"
+            ],
+            "question_16": [
+                "16D"
+            ],
+            "question_17": [
+                "17B"
+            ],
+            "question_18": [
+                "18B"
+            ],
+            "question_19": [
+                "19C"
+            ],
+            "question_20": [
+                "20C"
+            ],
+            "question_21": [
+                "21D"
+            ],
+            "question_22": [
+                "22C"
+            ],
+            "question_23": [
+                "23B"
+            ],
+            "question_24": [
+                "24A"
+            ],
+            "question_25": [
+                "25A"
+            ],
+            "question_26": [
+                "26B"
+            ],
+            "question_27": [
+                "27C"
+            ],
+            "question_28": [
+                "28A"
+            ],
+            "question_29": [
+                "29B"
+            ],
+            "question_30": [
+                "30D"
+            ],
+            "question_31": [
+                "31D"
+            ],
+            "question_32": [
+                "32A"
+            ],
+            "question_33": [
+                "33A"
+            ],
+            "question_34": [
+                "34D"
+            ],
+            "question_35": [
+                "35A"
+            ],
+            "question_36": [
+                "36B"
+            ],
+            "question_37": [
+                "37B"
+            ],
+            "question_38": [
+                "38C"
+            ],
+            "question_39": null,
+            "question_40": [
+                "40C"
+            ],
+            "question_41": [
+                "41B"
+            ],
+            "question_42": [
+                "42C"
+            ],
+            "question_43": [
+                "43C"
+            ],
+            "question_44": [
+                "44D"
+            ],
+            "question_45": [
+                "45A"
+            ],
+            "question_46": [
+                "46A"
+            ],
+            "question_47": [
+                "47D"
+            ],
+            "question_48": [
+                "48A"
+            ],
+            "question_49": [
+                "49C"
+            ],
+            "question_50": [
+                "50B"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205145",
+            "booklet_no": "0-"
+        },
+        "BE24-06-03018.jpg": {
+            "question_1": [
+                "1B"
+            ],
+            "question_2": [
+                "2D"
+            ],
+            "question_3": [
+                "3B"
+            ],
+            "question_4": [
+                "4A"
+            ],
+            "question_5": [
+                "5B"
+            ],
+            "question_6": [
+                "6B"
+            ],
+            "question_7": [
+                "7B"
+            ],
+            "question_8": [
+                "8B"
+            ],
+            "question_9": [
+                "9C"
+            ],
+            "question_10": [
+                "10C"
+            ],
+            "question_11": [
+                "11A"
+            ],
+            "question_12": [
+                "12A"
+            ],
+            "question_13": [
+                "13C"
+            ],
+            "question_14": [
+                "14A"
+            ],
+            "question_15": [
+                "15B"
+            ],
+            "question_16": [
+                "16B"
+            ],
+            "question_17": [
+                "17C"
+            ],
+            "question_18": [
+                "18D"
+            ],
+            "question_19": [
+                "19C"
+            ],
+            "question_20": [
+                "20C"
+            ],
+            "question_21": [
+                "21D"
+            ],
+            "question_22": [
+                "22C"
+            ],
+            "question_23": [
+                "23A"
+            ],
+            "question_24": [
+                "24D"
+            ],
+            "question_25": [
+                "25D"
+            ],
+            "question_26": [
+                "26A"
+            ],
+            "question_27": [
+                "27A"
+            ],
+            "question_28": [
+                "28B"
+            ],
+            "question_29": [
+                "29C"
+            ],
+            "question_30": [
+                "30A"
+            ],
+            "question_31": [
+                "31C"
+            ],
+            "question_32": [
+                "32C"
+            ],
+            "question_33": [
+                "33C"
+            ],
+            "question_34": [
+                "34A"
+            ],
+            "question_35": [
+                "35A"
+            ],
+            "question_36": [
+                "36A"
+            ],
+            "question_37": [
+                "37C",
+                "37D"
+            ],
+            "question_38": [
+                "38A"
+            ],
+            "question_39": [
+                "39B"
+            ],
+            "question_40": [
+                "40B"
+            ],
+            "question_41": [
+                "41B"
+            ],
+            "question_42": [
+                "42D"
+            ],
+            "question_43": [
+                "43A"
+            ],
+            "question_44": [
+                "44B"
+            ],
+            "question_45": [
+                "45C"
+            ],
+            "question_46": [
+                "46A"
+            ],
+            "question_47": [
+                "47D"
+            ],
+            "question_48": [
+                "48A"
+            ],
+            "question_49": [
+                "49A"
+            ],
+            "question_50": [
+                "50D"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205146",
+            "booklet_no": "-0"
+        },
+        "BE24-06-03019.jpg": {
+            "question_1": [
+                "1A"
+            ],
+            "question_2": [
+                "2C"
+            ],
+            "question_3": [
+                "3A"
+            ],
+            "question_4": [
+                "4A"
+            ],
+            "question_5": [
+                "5B"
+            ],
+            "question_6": [
+                "6B"
+            ],
+            "question_7": [
+                "7C"
+            ],
+            "question_8": [
+                "8A"
+            ],
+            "question_9": [
+                "9A"
+            ],
+            "question_10": [
+                "10D"
+            ],
+            "question_11": [
+                "11C"
+            ],
+            "question_12": [
+                "12B"
+            ],
+            "question_13": [
+                "13D"
+            ],
+            "question_14": [
+                "14C"
+            ],
+            "question_15": [
+                "15B"
+            ],
+            "question_16": [
+                "16A"
+            ],
+            "question_17": [
+                "17A"
+            ],
+            "question_18": [
+                "18B"
+            ],
+            "question_19": [
+                "19A"
+            ],
+            "question_20": [
+                "20B"
+            ],
+            "question_21": [
+                "21A"
+            ],
+            "question_22": [
+                "22A"
+            ],
+            "question_23": [
+                "23B"
+            ],
+            "question_24": [
+                "24B"
+            ],
+            "question_25": [
+                "25A"
+            ],
+            "question_26": [
+                "26D"
+            ],
+            "question_27": [
+                "27D"
+            ],
+            "question_28": null,
+            "question_29": [
+                "29C"
+            ],
+            "question_30": [
+                "30D"
+            ],
+            "question_31": [
+                "31D"
+            ],
+            "question_32": [
+                "32C"
+            ],
+            "question_33": [
+                "33A"
+            ],
+            "question_34": [
+                "34C"
+            ],
+            "question_35": [
+                "35D"
+            ],
+            "question_36": [
+                "36B"
+            ],
+            "question_37": [
+                "37B"
+            ],
+            "question_38": [
+                "38C"
+            ],
+            "question_39": [
+                "39B"
+            ],
+            "question_40": [
+                "40B"
+            ],
+            "question_41": [
+                "41C"
+            ],
+            "question_42": [
+                "42C"
+            ],
+            "question_43": [
+                "43D"
+            ],
+            "question_44": [
+                "44D"
+            ],
+            "question_45": [
+                "45B"
+            ],
+            "question_46": [
+                "46A"
+            ],
+            "question_47": [
+                "47D"
+            ],
+            "question_48": [
+                "48B"
+            ],
+            "question_49": [
+                "49B"
+            ],
+            "question_50": [
+                "50B"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205147",
+            "booklet_no": "0-"
+        },
+        "BE24-06-03020.jpg": {
+            "question_1": [
+                "1D"
+            ],
+            "question_2": [
+                "2D"
+            ],
+            "question_3": [
+                "3D"
+            ],
+            "question_4": [
+                "4C"
+            ],
+            "question_5": [
+                "5B"
+            ],
+            "question_6": [
+                "6D"
+            ],
+            "question_7": [
+                "7B"
+            ],
+            "question_8": [
+                "8C"
+            ],
+            "question_9": [
+                "9B"
+            ],
+            "question_10": [
+                "10B"
+            ],
+            "question_11": [
+                "11A"
+            ],
+            "question_12": [
+                "12C"
+            ],
+            "question_13": [
+                "13C"
+            ],
+            "question_14": [
+                "14C"
+            ],
+            "question_15": [
+                "15C"
+            ],
+            "question_16": [
+                "16B"
+            ],
+            "question_17": [
+                "17C"
+            ],
+            "question_18": [
+                "18A"
+            ],
+            "question_19": [
+                "19A"
+            ],
+            "question_20": [
+                "20C"
+            ],
+            "question_21": [
+                "21C"
+            ],
+            "question_22": [
+                "22C"
+            ],
+            "question_23": [
+                "23A"
+            ],
+            "question_24": [
+                "24C"
+            ],
+            "question_25": [
+                "25D"
+            ],
+            "question_26": [
+                "26A"
+            ],
+            "question_27": [
+                "27C"
+            ],
+            "question_28": [
+                "28A"
+            ],
+            "question_29": [
+                "29C"
+            ],
+            "question_30": [
+                "30A"
+            ],
+            "question_31": [
+                "31C"
+            ],
+            "question_32": [
+                "32D"
+            ],
+            "question_33": [
+                "33C"
+            ],
+            "question_34": [
+                "34B"
+            ],
+            "question_35": [
+                "35B"
+            ],
+            "question_36": [
+                "36C"
+            ],
+            "question_37": [
+                "37C"
+            ],
+            "question_38": [
+                "38A"
+            ],
+            "question_39": [
+                "39B"
+            ],
+            "question_40": [
+                "40B"
+            ],
+            "question_41": [
+                "41A"
+            ],
+            "question_42": [
+                "42B"
+            ],
+            "question_43": null,
+            "question_44": [
+                "44A"
+            ],
+            "question_45": [
+                "45A"
+            ],
+            "question_46": [
+                "46B"
+            ],
+            "question_47": [
+                "47D"
+            ],
+            "question_48": [
+                "48C"
+            ],
+            "question_49": [
+                "49A"
+            ],
+            "question_50": [
+                "50D"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205148",
+            "booklet_no": "-0"
+        },
+        "BE24-06-03021.jpg": {
+            "question_1": [
+                "1A"
+            ],
+            "question_2": [
+                "2D"
+            ],
+            "question_3": [
+                "3B"
+            ],
+            "question_4": [
+                "4A"
+            ],
+            "question_5": [
+                "5A"
+            ],
+            "question_6": [
+                "6C"
+            ],
+            "question_7": [
+                "7C"
+            ],
+            "question_8": [
+                "8A"
+            ],
+            "question_9": [
+                "9C"
+            ],
+            "question_10": [
+                "10A"
+            ],
+            "question_11": [
+                "11B"
+            ],
+            "question_12": [
+                "12D"
+            ],
+            "question_13": [
+                "13D"
+            ],
+            "question_14": [
+                "14D"
+            ],
+            "question_15": [
+                "15B"
+            ],
+            "question_16": [
+                "16D"
+            ],
+            "question_17": [
+                "17B"
+            ],
+            "question_18": [
+                "18C"
+            ],
+            "question_19": [
+                "19D"
+            ],
+            "question_20": [
+                "20D"
+            ],
+            "question_21": [
+                "21A"
+            ],
+            "question_22": [
+                "22B"
+            ],
+            "question_23": [
+                "23C"
+            ],
+            "question_24": [
+                "24D"
+            ],
+            "question_25": [
+                "25A"
+            ],
+            "question_26": [
+                "26D"
+            ],
+            "question_27": [
+                "27C"
+            ],
+            "question_28": [
+                "28A"
+            ],
+            "question_29": [
+                "29C"
+            ],
+            "question_30": [
+                "30D"
+            ],
+            "question_31": [
+                "31A"
+            ],
+            "question_32": [
+                "32A"
+            ],
+            "question_33": [
+                "33A"
+            ],
+            "question_34": [
+                "34C"
+            ],
+            "question_35": [
+                "35A"
+            ],
+            "question_36": [
+                "36B"
+            ],
+            "question_37": [
+                "37B"
+            ],
+            "question_38": [
+                "38C"
+            ],
+            "question_39": null,
+            "question_40": [
+                "40D"
+            ],
+            "question_41": [
+                "41C"
+            ],
+            "question_42": [
+                "42C"
+            ],
+            "question_43": [
+                "43D"
+            ],
+            "question_44": [
+                "44B"
+            ],
+            "question_45": [
+                "45C"
+            ],
+            "question_46": [
+                "46B"
+            ],
+            "question_47": [
+                "47C"
+            ],
+            "question_48": [
+                "48C"
+            ],
+            "question_49": [
+                "49B"
+            ],
+            "question_50": [
+                "50D"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205149",
+            "booklet_no": "0-"
+        },
+        "BE24-06-03022.jpg": {
+            "question_1": [
+                "1B"
+            ],
+            "question_2": [
+                "2D"
+            ],
+            "question_3": [
+                "3D"
+            ],
+            "question_4": [
+                "4D"
+            ],
+            "question_5": null,
+            "question_6": null,
+            "question_7": [
+                "7B"
+            ],
+            "question_8": null,
+            "question_9": [
+                "9D"
+            ],
+            "question_10": null,
+            "question_11": null,
+            "question_12": null,
+            "question_13": null,
+            "question_14": [
+                "14C"
+            ],
+            "question_15": [
+                "15A"
+            ],
+            "question_16": [
+                "16B"
+            ],
+            "question_17": null,
+            "question_18": null,
+            "question_19": [
+                "19A"
+            ],
+            "question_20": null,
+            "question_21": [
+                "21D"
+            ],
+            "question_22": null,
+            "question_23": [
+                "23C"
+            ],
+            "question_24": null,
+            "question_25": null,
+            "question_26": [
+                "26C"
+            ],
+            "question_27": [
+                "27D"
+            ],
+            "question_28": [
+                "28A"
+            ],
+            "question_29": [
+                "29D"
+            ],
+            "question_30": [
+                "30A"
+            ],
+            "question_31": [
+                "31A"
+            ],
+            "question_32": null,
+            "question_33": [
+                "33C"
+            ],
+            "question_34": [
+                "34A"
+            ],
+            "question_35": [
+                "35A"
+            ],
+            "question_36": [
+                "36D"
+            ],
+            "question_37": [
+                "37C"
+            ],
+            "question_38": [
+                "38D"
+            ],
+            "question_39": [
+                "39C"
+            ],
+            "question_40": [
+                "40D"
+            ],
+            "question_41": [
+                "41C"
+            ],
+            "question_42": [
+                "42D"
+            ],
+            "question_43": [
+                "43B"
+            ],
+            "question_44": null,
+            "question_45": [
+                "45C"
+            ],
+            "question_46": null,
+            "question_47": null,
+            "question_48": [
+                "48B"
+            ],
+            "question_49": [
+                "49B"
+            ],
+            "question_50": null,
+            "reg_no": null,
+            "roll_no": "2401205150",
+            "booklet_no": "-0"
+        },
+        "BE24-06-03023.jpg": {
+            "question_1": [
+                "1A"
+            ],
+            "question_2": [
+                "2D"
+            ],
+            "question_3": [
+                "3B"
+            ],
+            "question_4": [
+                "4C"
+            ],
+            "question_5": [
+                "5B"
+            ],
+            "question_6": [
+                "6A"
+            ],
+            "question_7": [
+                "7A"
+            ],
+            "question_8": [
+                "8C"
+            ],
+            "question_9": [
+                "9C"
+            ],
+            "question_10": [
+                "10A"
+            ],
+            "question_11": [
+                "11B"
+            ],
+            "question_12": [
+                "12D"
+            ],
+            "question_13": [
+                "13B"
+            ],
+            "question_14": [
+                "14A"
+            ],
+            "question_15": [
+                "15B"
+            ],
+            "question_16": [
+                "16B"
+            ],
+            "question_17": [
+                "17B"
+            ],
+            "question_18": [
+                "18B"
+            ],
+            "question_19": [
+                "19B"
+            ],
+            "question_20": [
+                "20A"
+            ],
+            "question_21": [
+                "21B"
+            ],
+            "question_22": [
+                "22B"
+            ],
+            "question_23": [
+                "23B"
+            ],
+            "question_24": [
+                "24D"
+            ],
+            "question_25": [
+                "25A"
+            ],
+            "question_26": [
+                "26A"
+            ],
+            "question_27": [
+                "27B"
+            ],
+            "question_28": [
+                "28D"
+            ],
+            "question_29": [
+                "29B"
+            ],
+            "question_30": [
+                "30A"
+            ],
+            "question_31": [
+                "31C"
+            ],
+            "question_32": [
+                "32C"
+            ],
+            "question_33": [
+                "33B"
+            ],
+            "question_34": [
+                "34C"
+            ],
+            "question_35": [
+                "35B"
+            ],
+            "question_36": [
+                "36A"
+            ],
+            "question_37": [
+                "37B"
+            ],
+            "question_38": [
+                "38C"
+            ],
+            "question_39": [
+                "39A"
+            ],
+            "question_40": [
+                "40C"
+            ],
+            "question_41": [
+                "41C"
+            ],
+            "question_42": [
+                "42C"
+            ],
+            "question_43": [
+                "43A"
+            ],
+            "question_44": [
+                "44D"
+            ],
+            "question_45": [
+                "45B"
+            ],
+            "question_46": [
+                "46A"
+            ],
+            "question_47": [
+                "47D"
+            ],
+            "question_48": [
+                "48B"
+            ],
+            "question_49": [
+                "49D"
+            ],
+            "question_50": [
+                "50D"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205152",
+            "booklet_no": null
+        },
+        "BE24-06-03024.jpg": {
+            "question_1": [
+                "1B"
+            ],
+            "question_2": [
+                "2D"
+            ],
+            "question_3": [
+                "3D"
+            ],
+            "question_4": [
+                "4C"
+            ],
+            "question_5": [
+                "5B"
+            ],
+            "question_6": [
+                "6D"
+            ],
+            "question_7": [
+                "7A"
+            ],
+            "question_8": [
+                "8C"
+            ],
+            "question_9": [
+                "9D"
+            ],
+            "question_10": [
+                "10A"
+            ],
+            "question_11": [
+                "11A"
+            ],
+            "question_12": [
+                "12C"
+            ],
+            "question_13": [
+                "13B"
+            ],
+            "question_14": [
+                "14A"
+            ],
+            "question_15": [
+                "15A"
+            ],
+            "question_16": [
+                "16C"
+            ],
+            "question_17": [
+                "17C"
+            ],
+            "question_18": [
+                "18B"
+            ],
+            "question_19": [
+                "19C"
+            ],
+            "question_20": [
+                "20A"
+            ],
+            "question_21": [
+                "21B"
+            ],
+            "question_22": [
+                "22C"
+            ],
+            "question_23": [
+                "23A"
+            ],
+            "question_24": [
+                "24A"
+            ],
+            "question_25": [
+                "25D"
+            ],
+            "question_26": [
+                "26D"
+            ],
+            "question_27": [
+                "27C"
+            ],
+            "question_28": [
+                "28B"
+            ],
+            "question_29": [
+                "29A"
+            ],
+            "question_30": [
+                "30A"
+            ],
+            "question_31": [
+                "31C"
+            ],
+            "question_32": [
+                "32B"
+            ],
+            "question_33": [
+                "33D"
+            ],
+            "question_34": [
+                "34C"
+            ],
+            "question_35": [
+                "35B"
+            ],
+            "question_36": [
+                "36C"
+            ],
+            "question_37": [
+                "37D"
+            ],
+            "question_38": [
+                "38A"
+            ],
+            "question_39": [
+                "39C"
+            ],
+            "question_40": [
+                "40D"
+            ],
+            "question_41": [
+                "41B"
+            ],
+            "question_42": [
+                "42C"
+            ],
+            "question_43": [
+                "43A"
+            ],
+            "question_44": [
+                "44C"
+            ],
+            "question_45": [
+                "45C"
+            ],
+            "question_46": [
+                "46D"
+            ],
+            "question_47": [
+                "47D"
+            ],
+            "question_48": [
+                "48B"
+            ],
+            "question_49": [
+                "49A"
+            ],
+            "question_50": [
+                "50C"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205153",
+            "booklet_no": "-0"
+        },
+        "BE24-06-03025.jpg": {
+            "question_1": [
+                "1A"
+            ],
+            "question_2": [
+                "2C"
+            ],
+            "question_3": [
+                "3C"
+            ],
+            "question_4": [
+                "4A"
+            ],
+            "question_5": [
+                "5C"
+            ],
+            "question_6": [
+                "6D"
+            ],
+            "question_7": [
+                "7C"
+            ],
+            "question_8": [
+                "8D"
+            ],
+            "question_9": [
+                "9C"
+            ],
+            "question_10": [
+                "10A"
+            ],
+            "question_11": [
+                "11B"
+            ],
+            "question_12": [
+                "12D"
+            ],
+            "question_13": [
+                "13C",
+                "13D"
+            ],
+            "question_14": [
+                "14C"
+            ],
+            "question_15": [
+                "15B"
+            ],
+            "question_16": [
+                "16D"
+            ],
+            "question_17": [
+                "17A"
+            ],
+            "question_18": [
+                "18A"
+            ],
+            "question_19": [
+                "19B"
+            ],
+            "question_20": [
+                "20B"
+            ],
+            "question_21": [
+                "21A"
+            ],
+            "question_22": [
+                "22B"
+            ],
+            "question_23": [
+                "23D"
+            ],
+            "question_24": [
+                "24D"
+            ],
+            "question_25": [
+                "25A"
+            ],
+            "question_26": [
+                "26D"
+            ],
+            "question_27": [
+                "27D"
+            ],
+            "question_28": [
+                "28A"
+            ],
+            "question_29": [
+                "29C"
+            ],
+            "question_30": [
+                "30A"
+            ],
+            "question_31": [
+                "31A"
+            ],
+            "question_32": [
+                "32B"
+            ],
+            "question_33": [
+                "33B"
+            ],
+            "question_34": [
+                "34A"
+            ],
+            "question_35": [
+                "35B"
+            ],
+            "question_36": [
+                "36B"
+            ],
+            "question_37": [
+                "37D"
+            ],
+            "question_38": [
+                "38C"
+            ],
+            "question_39": [
+                "39A"
+            ],
+            "question_40": [
+                "40D"
+            ],
+            "question_41": [
+                "41C"
+            ],
+            "question_42": [
+                "42B"
+            ],
+            "question_43": [
+                "43B"
+            ],
+            "question_44": [
+                "44B"
+            ],
+            "question_45": [
+                "45B"
+            ],
+            "question_46": [
+                "46D"
+            ],
+            "question_47": [
+                "47A"
+            ],
+            "question_48": [
+                "48B"
+            ],
+            "question_49": [
+                "49A"
+            ],
+            "question_50": [
+                "50D"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205154",
+            "booklet_no": "0-"
+        },
+        "BE24-06-03026.jpg": {
+            "question_1": [
+                "1A"
+            ],
+            "question_2": [
+                "2A"
+            ],
+            "question_3": [
+                "3C"
+            ],
+            "question_4": [
+                "4A"
+            ],
+            "question_5": [
+                "5B"
+            ],
+            "question_6": [
+                "6A"
+            ],
+            "question_7": [
+                "7C"
+            ],
+            "question_8": [
+                "8A"
+            ],
+            "question_9": [
+                "9C"
+            ],
+            "question_10": [
+                "10A"
+            ],
+            "question_11": [
+                "11C"
+            ],
+            "question_12": [
+                "12B"
+            ],
+            "question_13": [
+                "13D"
+            ],
+            "question_14": [
+                "14C"
+            ],
+            "question_15": [
+                "15B"
+            ],
+            "question_16": [
+                "16A"
+            ],
+            "question_17": [
+                "17A"
+            ],
+            "question_18": [
+                "18B"
+            ],
+            "question_19": [
+                "19A"
+            ],
+            "question_20": [
+                "20B"
+            ],
+            "question_21": [
+                "21A"
+            ],
+            "question_22": [
+                "22C"
+            ],
+            "question_23": [
+                "23B"
+            ],
+            "question_24": [
+                "24B"
+            ],
+            "question_25": [
+                "25A"
+            ],
+            "question_26": [
+                "26D"
+            ],
+            "question_27": [
+                "27D"
+            ],
+            "question_28": [
+                "28B"
+            ],
+            "question_29": [
+                "29C"
+            ],
+            "question_30": [
+                "30D"
+            ],
+            "question_31": [
+                "31D"
+            ],
+            "question_32": [
+                "32C"
+            ],
+            "question_33": [
+                "33A"
+            ],
+            "question_34": [
+                "34D"
+            ],
+            "question_35": [
+                "35A"
+            ],
+            "question_36": [
+                "36B"
+            ],
+            "question_37": [
+                "37B"
+            ],
+            "question_38": [
+                "38C"
+            ],
+            "question_39": [
+                "39B"
+            ],
+            "question_40": [
+                "40C"
+            ],
+            "question_41": [
+                "41C"
+            ],
+            "question_42": [
+                "42C"
+            ],
+            "question_43": [
+                "43B"
+            ],
+            "question_44": [
+                "44D"
+            ],
+            "question_45": [
+                "45B"
+            ],
+            "question_46": [
+                "46A"
+            ],
+            "question_47": [
+                "47D"
+            ],
+            "question_48": [
+                "48B"
+            ],
+            "question_49": [
+                "49B"
+            ],
+            "question_50": [
+                "50B"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205156",
+            "booklet_no": "0-"
+        },
+        "BE24-06-03027.jpg": {
+            "question_1": [
+                "1D"
+            ],
+            "question_2": [
+                "2B"
+            ],
+            "question_3": [
+                "3D"
+            ],
+            "question_4": [
+                "4B"
+            ],
+            "question_5": [
+                "5B"
+            ],
+            "question_6": [
+                "6B"
+            ],
+            "question_7": [
+                "7A"
+            ],
+            "question_8": [
+                "8C"
+            ],
+            "question_9": [
+                "9B"
+            ],
+            "question_10": [
+                "10C"
+            ],
+            "question_11": [
+                "11B"
+            ],
+            "question_12": [
+                "12A"
+            ],
+            "question_13": [
+                "13C"
+            ],
+            "question_14": [
+                "14C"
+            ],
+            "question_15": [
+                "15A"
+            ],
+            "question_16": [
+                "16C"
+            ],
+            "question_17": [
+                "17B"
+            ],
+            "question_18": [
+                "18A"
+            ],
+            "question_19": [
+                "19C"
+            ],
+            "question_20": [
+                "20B"
+            ],
+            "question_21": [
+                "21C"
+            ],
+            "question_22": [
+                "22D"
+            ],
+            "question_23": [
+                "23A"
+            ],
+            "question_24": [
+                "24C"
+            ],
+            "question_25": [
+                "25D"
+            ],
+            "question_26": [
+                "26A"
+            ],
+            "question_27": [
+                "27A"
+            ],
+            "question_28": [
+                "28B"
+            ],
+            "question_29": [
+                "29A"
+            ],
+            "question_30": [
+                "30A"
+            ],
+            "question_31": [
+                "31C"
+            ],
+            "question_32": [
+                "32D"
+            ],
+            "question_33": [
+                "33A"
+            ],
+            "question_34": [
+                "34B"
+            ],
+            "question_35": [
+                "35B"
+            ],
+            "question_36": [
+                "36A"
+            ],
+            "question_37": [
+                "37C"
+            ],
+            "question_38": [
+                "38A"
+            ],
+            "question_39": [
+                "39C"
+            ],
+            "question_40": [
+                "40D"
+            ],
+            "question_41": [
+                "41D"
+            ],
+            "question_42": [
+                "42B"
+            ],
+            "question_43": [
+                "43B"
+            ],
+            "question_44": [
+                "44C"
+            ],
+            "question_45": [
+                "45A"
+            ],
+            "question_46": [
+                "46B"
+            ],
+            "question_47": [
+                "47D"
+            ],
+            "question_48": [
+                "48C"
+            ],
+            "question_49": [
+                "49A"
+            ],
+            "question_50": [
+                "50C"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205157",
+            "booklet_no": "-0"
+        },
+        "BE24-06-03028.jpg": {
+            "question_1": [
+                "1D"
+            ],
+            "question_2": [
+                "2C"
+            ],
+            "question_3": [
+                "3C"
+            ],
+            "question_4": [
+                "4A"
+            ],
+            "question_5": [
+                "5A"
+            ],
+            "question_6": [
+                "6C"
+            ],
+            "question_7": [
+                "7D"
+            ],
+            "question_8": [
+                "8A"
+            ],
+            "question_9": [
+                "9C"
+            ],
+            "question_10": [
+                "10D"
+            ],
+            "question_11": [
+                "11C"
+            ],
+            "question_12": [
+                "12D"
+            ],
+            "question_13": [
+                "13B"
+            ],
+            "question_14": [
+                "14B"
+            ],
+            "question_15": [
+                "15B"
+            ],
+            "question_16": [
+                "16C"
+            ],
+            "question_17": [
+                "17B"
+            ],
+            "question_18": [
+                "18C"
+            ],
+            "question_19": [
+                "19C"
+            ],
+            "question_20": [
+                "20C"
+            ],
+            "question_21": [
+                "21A"
+            ],
+            "question_22": [
+                "22C"
+            ],
+            "question_23": [
+                "23C"
+            ],
+            "question_24": [
+                "24B",
+                "24C"
+            ],
+            "question_25": [
+                "25A"
+            ],
+            "question_26": [
+                "26A"
+            ],
+            "question_27": [
+                "27D"
+            ],
+            "question_28": [
+                "28C"
+            ],
+            "question_29": [
+                "29C"
+            ],
+            "question_30": [
+                "30A"
+            ],
+            "question_31": [
+                "31B"
+            ],
+            "question_32": [
+                "32B"
+            ],
+            "question_33": [
+                "33A"
+            ],
+            "question_34": [
+                "34A"
+            ],
+            "question_35": [
+                "35D"
+            ],
+            "question_36": [
+                "36B"
+            ],
+            "question_37": [
+                "37A"
+            ],
+            "question_38": [
+                "38C"
+            ],
+            "question_39": [
+                "39C"
+            ],
+            "question_40": [
+                "40C"
+            ],
+            "question_41": [
+                "41C"
+            ],
+            "question_42": [
+                "42C"
+            ],
+            "question_43": [
+                "43D"
+            ],
+            "question_44": [
+                "44B"
+            ],
+            "question_45": [
+                "45C"
+            ],
+            "question_46": null,
+            "question_47": [
+                "47C"
+            ],
+            "question_48": null,
+            "question_49": null,
+            "question_50": null,
+            "reg_no": null,
+            "roll_no": "2410205158",
+            "booklet_no": "0-"
+        },
+        "BE24-06-03029.jpg": {
+            "question_1": [
+                "1C"
+            ],
+            "question_2": [
+                "2B"
+            ],
+            "question_3": [
+                "3B"
+            ],
+            "question_4": [
+                "4D"
+            ],
+            "question_5": [
+                "5B"
+            ],
+            "question_6": [
+                "6D"
+            ],
+            "question_7": [
+                "7B"
+            ],
+            "question_8": [
+                "8D"
+            ],
+            "question_9": [
+                "9C"
+            ],
+            "question_10": [
+                "10C"
+            ],
+            "question_11": [
+                "11A"
+            ],
+            "question_12": [
+                "12C"
+            ],
+            "question_13": [
+                "13A"
+            ],
+            "question_14": [
+                "14B"
+            ],
+            "question_15": [
+                "15A"
+            ],
+            "question_16": [
+                "16C"
+            ],
+            "question_17": [
+                "17C"
+            ],
+            "question_18": [
+                "18A"
+            ],
+            "question_19": [
+                "19C"
+            ],
+            "question_20": [
+                "20B"
+            ],
+            "question_21": [
+                "21C"
+            ],
+            "question_22": [
+                "22C"
+            ],
+            "question_23": [
+                "23B"
+            ],
+            "question_24": [
+                "24D"
+            ],
+            "question_25": [
+                "25B"
+            ],
+            "question_26": [
+                "26B"
+            ],
+            "question_27": [
+                "27B"
+            ],
+            "question_28": [
+                "28B"
+            ],
+            "question_29": [
+                "29A"
+            ],
+            "question_30": [
+                "30B"
+            ],
+            "question_31": [
+                "31C"
+            ],
+            "question_32": [
+                "32A"
+            ],
+            "question_33": [
+                "33B"
+            ],
+            "question_34": [
+                "34B"
+            ],
+            "question_35": [
+                "35A"
+            ],
+            "question_36": [
+                "36C"
+            ],
+            "question_37": [
+                "37A"
+            ],
+            "question_38": [
+                "38A"
+            ],
+            "question_39": [
+                "39B"
+            ],
+            "question_40": [
+                "40B"
+            ],
+            "question_41": [
+                "41C"
+            ],
+            "question_42": [
+                "42A"
+            ],
+            "question_43": [
+                "43B"
+            ],
+            "question_44": [
+                "44C"
+            ],
+            "question_45": [
+                "45C"
+            ],
+            "question_46": [
+                "46B"
+            ],
+            "question_47": [
+                "47C"
+            ],
+            "question_48": [
+                "48A"
+            ],
+            "question_49": [
+                "49B"
+            ],
+            "question_50": [
+                "50A"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205159",
+            "booklet_no": "00"
+        },
+        "BE24-06-03030.jpg": {
+            "question_1": [
+                "1C"
+            ],
+            "question_2": [
+                "2C"
+            ],
+            "question_3": null,
+            "question_4": [
+                "4A"
+            ],
+            "question_5": [
+                "5A"
+            ],
+            "question_6": [
+                "6C"
+            ],
+            "question_7": [
+                "7C"
+            ],
+            "question_8": [
+                "8A"
+            ],
+            "question_9": [
+                "9C"
+            ],
+            "question_10": null,
+            "question_11": [
+                "11B"
+            ],
+            "question_12": [
+                "12C"
+            ],
+            "question_13": [
+                "13B"
+            ],
+            "question_14": [
+                "14C"
+            ],
+            "question_15": [
+                "15B"
+            ],
+            "question_16": [
+                "16D"
+            ],
+            "question_17": [
+                "17B"
+            ],
+            "question_18": [
+                "18B"
+            ],
+            "question_19": null,
+            "question_20": [
+                "20C"
+            ],
+            "question_21": [
+                "21C"
+            ],
+            "question_22": null,
+            "question_23": [
+                "23A"
+            ],
+            "question_24": [
+                "24D"
+            ],
+            "question_25": null,
+            "question_26": [
+                "26A"
+            ],
+            "question_27": [
+                "27A"
+            ],
+            "question_28": [
+                "28C"
+            ],
+            "question_29": [
+                "29B"
+            ],
+            "question_30": null,
+            "question_31": null,
+            "question_32": [
+                "32A"
+            ],
+            "question_33": [
+                "33D"
+            ],
+            "question_34": [
+                "34C"
+            ],
+            "question_35": [
+                "35D"
+            ],
+            "question_36": null,
+            "question_37": [
+                "37D"
+            ],
+            "question_38": [
+                "38C"
+            ],
+            "question_39": null,
+            "question_40": [
+                "40C"
+            ],
+            "question_41": null,
+            "question_42": [
+                "42C"
+            ],
+            "question_43": null,
+            "question_44": null,
+            "question_45": [
+                "45B"
+            ],
+            "question_46": [
+                "46B"
+            ],
+            "question_47": null,
+            "question_48": null,
+            "question_49": [
+                "49D"
+            ],
+            "question_50": [
+                "50B"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205160",
+            "booklet_no": "0-"
+        },
+        "BE24-06-03031.jpg": {
+            "question_1": [
+                "1C"
+            ],
+            "question_2": [
+                "2B"
+            ],
+            "question_3": [
+                "3B"
+            ],
+            "question_4": [
+                "4A"
+            ],
+            "question_5": [
+                "5B"
+            ],
+            "question_6": [
+                "6B"
+            ],
+            "question_7": [
+                "7C"
+            ],
+            "question_8": [
+                "8C"
+            ],
+            "question_9": [
+                "9A"
+            ],
+            "question_10": [
+                "10C"
+            ],
+            "question_11": [
+                "11D"
+            ],
+            "question_12": [
+                "12B"
+            ],
+            "question_13": [
+                "13D"
+            ],
+            "question_14": [
+                "14A"
+            ],
+            "question_15": [
+                "15B"
+            ],
+            "question_16": [
+                "16C"
+            ],
+            "question_17": [
+                "17B"
+            ],
+            "question_18": [
+                "18D"
+            ],
+            "question_19": [
+                "19B"
+            ],
+            "question_20": [
+                "20B"
+            ],
+            "question_21": [
+                "21C"
+            ],
+            "question_22": [
+                "22B"
+            ],
+            "question_23": [
+                "23C"
+            ],
+            "question_24": [
+                "24B"
+            ],
+            "question_25": [
+                "25A"
+            ],
+            "question_26": [
+                "26B"
+            ],
+            "question_27": [
+                "27C"
+            ],
+            "question_28": [
+                "28C"
+            ],
+            "question_29": [
+                "29B"
+            ],
+            "question_30": [
+                "30B"
+            ],
+            "question_31": [
+                "31D"
+            ],
+            "question_32": [
+                "32B"
+            ],
+            "question_33": [
+                "33B"
+            ],
+            "question_34": [
+                "34A"
+            ],
+            "question_35": [
+                "35D"
+            ],
+            "question_36": [
+                "36B"
+            ],
+            "question_37": [
+                "37A"
+            ],
+            "question_38": [
+                "38C"
+            ],
+            "question_39": [
+                "39D"
+            ],
+            "question_40": [
+                "40A"
+            ],
+            "question_41": [
+                "41C"
+            ],
+            "question_42": [
+                "42A"
+            ],
+            "question_43": [
+                "43B"
+            ],
+            "question_44": [
+                "44C"
+            ],
+            "question_45": [
+                "45B"
+            ],
+            "question_46": [
+                "46B"
+            ],
+            "question_47": [
+                "47B"
+            ],
+            "question_48": [
+                "48D"
+            ],
+            "question_49": [
+                "49D"
+            ],
+            "question_50": [
+                "50B"
+            ],
+            "reg_no": null,
+            "roll_no": "2410205161",
+            "booklet_no": "0-"
+        },
+        "BE24-06-03032.jpg": {
+            "question_1": [
+                "1B"
+            ],
+            "question_2": [
+                "2D"
+            ],
+            "question_3": [
+                "3A"
+            ],
+            "question_4": [
+                "4A"
+            ],
+            "question_5": [
+                "5B"
+            ],
+            "question_6": [
+                "6D"
+            ],
+            "question_7": [
+                "7B"
+            ],
+            "question_8": [
+                "8B"
+            ],
+            "question_9": [
+                "9C"
+            ],
+            "question_10": [
+                "10A"
+            ],
+            "question_11": [
+                "11A"
+            ],
+            "question_12": [
+                "12D"
+            ],
+            "question_13": [
+                "13B"
+            ],
+            "question_14": [
+                "14C"
+            ],
+            "question_15": [
+                "15A"
+            ],
+            "question_16": [
+                "16B"
+            ],
+            "question_17": [
+                "17A"
+            ],
+            "question_18": [
+                "18D"
+            ],
+            "question_19": [
+                "19C"
+            ],
+            "question_20": [
+                "20A"
+            ],
+            "question_21": [
+                "21B"
+            ],
+            "question_22": [
+                "22A"
+            ],
+            "question_23": [
+                "23D"
+            ],
+            "question_24": [
+                "24B"
+            ],
+            "question_25": [
+                "25D"
+            ],
+            "question_26": [
+                "26A"
+            ],
+            "question_27": [
+                "27B"
+            ],
+            "question_28": [
+                "28B"
+            ],
+            "question_29": [
+                "29D"
+            ],
+            "question_30": [
+                "30A"
+            ],
+            "question_31": null,
+            "question_32": [
+                "32C"
+            ],
+            "question_33": [
+                "33C"
+            ],
+            "question_34": null,
+            "question_35": null,
+            "question_36": null,
+            "question_37": null,
+            "question_38": [
+                "38B"
+            ],
+            "question_39": [
+                "39B"
+            ],
+            "question_40": [
+                "40B"
+            ],
+            "question_41": [
+                "41B"
+            ],
+            "question_42": [
+                "42D"
+            ],
+            "question_43": [
+                "43D"
+            ],
+            "question_44": [
+                "44C"
+            ],
+            "question_45": [
+                "45C"
+            ],
+            "question_46": [
+                "46A"
+            ],
+            "question_47": [
+                "47D"
+            ],
+            "question_48": [
+                "48B"
+            ],
+            "question_49": [
+                "49A"
+            ],
+            "question_50": [
+                "50D"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205162",
+            "booklet_no": "-0"
+        },
+        "BE24-06-03033.jpg": {
+            "question_1": [
+                "1B"
+            ],
+            "question_2": [
+                "2D"
+            ],
+            "question_3": [
+                "3D"
+            ],
+            "question_4": [
+                "4D"
+            ],
+            "question_5": [
+                "5B"
+            ],
+            "question_6": [
+                "6D"
+            ],
+            "question_7": [
+                "7A"
+            ],
+            "question_8": [
+                "8A"
+            ],
+            "question_9": [
+                "9B"
+            ],
+            "question_10": [
+                "10C"
+            ],
+            "question_11": [
+                "11A"
+            ],
+            "question_12": [
+                "12D"
+            ],
+            "question_13": [
+                "13B"
+            ],
+            "question_14": [
+                "14A"
+            ],
+            "question_15": [
+                "15D"
+            ],
+            "question_16": [
+                "16B"
+            ],
+            "question_17": [
+                "17B"
+            ],
+            "question_18": [
+                "18D"
+            ],
+            "question_19": [
+                "19A"
+            ],
+            "question_20": [
+                "20B"
+            ],
+            "question_21": [
+                "21C"
+            ],
+            "question_22": [
+                "22A"
+            ],
+            "question_23": [
+                "23D"
+            ],
+            "question_24": [
+                "24B"
+            ],
+            "question_25": [
+                "25D"
+            ],
+            "question_26": [
+                "26A"
+            ],
+            "question_27": [
+                "27B"
+            ],
+            "question_28": [
+                "28B"
+            ],
+            "question_29": [
+                "29D"
+            ],
+            "question_30": [
+                "30A"
+            ],
+            "question_31": [
+                "31C"
+            ],
+            "question_32": [
+                "32D"
+            ],
+            "question_33": [
+                "33C"
+            ],
+            "question_34": [
+                "34A"
+            ],
+            "question_35": [
+                "35B"
+            ],
+            "question_36": [
+                "36A"
+            ],
+            "question_37": [
+                "37C"
+            ],
+            "question_38": [
+                "38A"
+            ],
+            "question_39": [
+                "39A"
+            ],
+            "question_40": [
+                "40C"
+            ],
+            "question_41": [
+                "41B"
+            ],
+            "question_42": [
+                "42D"
+            ],
+            "question_43": [
+                "43D"
+            ],
+            "question_44": [
+                "44C"
+            ],
+            "question_45": [
+                "45C"
+            ],
+            "question_46": [
+                "46B"
+            ],
+            "question_47": [
+                "47D"
+            ],
+            "question_48": [
+                "48B"
+            ],
+            "question_49": [
+                "49A"
+            ],
+            "question_50": [
+                "50D"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205164",
+            "booklet_no": "-0"
+        },
+        "BE24-06-03034.jpg": {
+            "question_1": [
+                "1A"
+            ],
+            "question_2": [
+                "2A"
+            ],
+            "question_3": [
+                "3C"
+            ],
+            "question_4": [
+                "4C"
+            ],
+            "question_5": [
+                "5A"
+            ],
+            "question_6": [
+                "6B"
+            ],
+            "question_7": null,
+            "question_8": [
+                "8A"
+            ],
+            "question_9": [
+                "9C"
+            ],
+            "question_10": [
+                "10C"
+            ],
+            "question_11": [
+                "11B"
+            ],
+            "question_12": [
+                "12B"
+            ],
+            "question_13": null,
+            "question_14": [
+                "14A"
+            ],
+            "question_15": [
+                "15B"
+            ],
+            "question_16": [
+                "16D"
+            ],
+            "question_17": [
+                "17B"
+            ],
+            "question_18": [
+                "18D"
+            ],
+            "question_19": [
+                "19B"
+            ],
+            "question_20": [
+                "20A"
+            ],
+            "question_21": [
+                "21A"
+            ],
+            "question_22": null,
+            "question_23": [
+                "23A"
+            ],
+            "question_24": [
+                "24D"
+            ],
+            "question_25": [
+                "25A"
+            ],
+            "question_26": [
+                "26B"
+            ],
+            "question_27": [
+                "27D"
+            ],
+            "question_28": null,
+            "question_29": [
+                "29B"
+            ],
+            "question_30": null,
+            "question_31": [
+                "31A"
+            ],
+            "question_32": [
+                "32B"
+            ],
+            "question_33": [
+                "33A"
+            ],
+            "question_34": [
+                "34A"
+            ],
+            "question_35": [
+                "35A"
+            ],
+            "question_36": [
+                "36B"
+            ],
+            "question_37": null,
+            "question_38": [
+                "38C"
+            ],
+            "question_39": [
+                "39B"
+            ],
+            "question_40": [
+                "40A"
+            ],
+            "question_41": [
+                "41C"
+            ],
+            "question_42": [
+                "42C"
+            ],
+            "question_43": null,
+            "question_44": [
+                "44D"
+            ],
+            "question_45": [
+                "45B"
+            ],
+            "question_46": [
+                "46A"
+            ],
+            "question_47": [
+                "47D"
+            ],
+            "question_48": [
+                "48C"
+            ],
+            "question_49": [
+                "49B"
+            ],
+            "question_50": null,
+            "reg_no": null,
+            "roll_no": "2401205165",
+            "booklet_no": "0-"
+        },
+        "BE24-06-03035.jpg": {
+            "question_1": [
+                "1A"
+            ],
+            "question_2": [
+                "2A"
+            ],
+            "question_3": [
+                "3C"
+            ],
+            "question_4": [
+                "4B"
+            ],
+            "question_5": [
+                "5D"
+            ],
+            "question_6": [
+                "6C"
+            ],
+            "question_7": [
+                "7B"
+            ],
+            "question_8": [
+                "8D"
+            ],
+            "question_9": [
+                "9C"
+            ],
+            "question_10": [
+                "10D"
+            ],
+            "question_11": [
+                "11B"
+            ],
+            "question_12": [
+                "12B"
+            ],
+            "question_13": [
+                "13D"
+            ],
+            "question_14": [
+                "14C"
+            ],
+            "question_15": [
+                "15B"
+            ],
+            "question_16": [
+                "16D"
+            ],
+            "question_17": [
+                "17B"
+            ],
+            "question_18": [
+                "18C"
+            ],
+            "question_19": [
+                "19A"
+            ],
+            "question_20": [
+                "20C"
+            ],
+            "question_21": [
+                "21A"
+            ],
+            "question_22": [
+                "22C"
+            ],
+            "question_23": [
+                "23B"
+            ],
+            "question_24": [
+                "24D"
+            ],
+            "question_25": [
+                "25A"
+            ],
+            "question_26": [
+                "26D"
+            ],
+            "question_27": [
+                "27B"
+            ],
+            "question_28": [
+                "28A"
+            ],
+            "question_29": [
+                "29A"
+            ],
+            "question_30": [
+                "30C"
+            ],
+            "question_31": [
+                "31A"
+            ],
+            "question_32": [
+                "32B"
+            ],
+            "question_33": [
+                "33A"
+            ],
+            "question_34": [
+                "34A"
+            ],
+            "question_35": [
+                "35B"
+            ],
+            "question_36": [
+                "36B"
+            ],
+            "question_37": [
+                "37C"
+            ],
+            "question_38": [
+                "38C"
+            ],
+            "question_39": [
+                "39A"
+            ],
+            "question_40": [
+                "40C"
+            ],
+            "question_41": [
+                "41C"
+            ],
+            "question_42": [
+                "42B"
+            ],
+            "question_43": [
+                "43A"
+            ],
+            "question_44": [
+                "44D"
+            ],
+            "question_45": [
+                "45D"
+            ],
+            "question_46": [
+                "46D"
+            ],
+            "question_47": [
+                "47A"
+            ],
+            "question_48": [
+                "48C"
+            ],
+            "question_49": [
+                "49C"
+            ],
+            "question_50": [
+                "50B"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205167",
+            "booklet_no": "0-"
+        },
+        "BE24-06-03036.jpg": {
+            "question_1": [
+                "1B"
+            ],
+            "question_2": [
+                "2D"
+            ],
+            "question_3": [
+                "3D"
+            ],
+            "question_4": [
+                "4A"
+            ],
+            "question_5": [
+                "5B"
+            ],
+            "question_6": [
+                "6C"
+            ],
+            "question_7": [
+                "7B"
+            ],
+            "question_8": [
+                "8C"
+            ],
+            "question_9": [
+                "9C"
+            ],
+            "question_10": [
+                "10C"
+            ],
+            "question_11": [
+                "11A"
+            ],
+            "question_12": [
+                "12C"
+            ],
+            "question_13": [
+                "13B"
+            ],
+            "question_14": [
+                "14B"
+            ],
+            "question_15": [
+                "15A"
+            ],
+            "question_16": [
+                "16B"
+            ],
+            "question_17": [
+                "17A"
+            ],
+            "question_18": [
+                "18C"
+            ],
+            "question_19": [
+                "19A"
+            ],
+            "question_20": [
+                "20B"
+            ],
+            "question_21": [
+                "21B"
+            ],
+            "question_22": [
+                "22C"
+            ],
+            "question_23": [
+                "23C"
+            ],
+            "question_24": [
+                "24C"
+            ],
+            "question_25": [
+                "25D"
+            ],
+            "question_26": [
+                "26A"
+            ],
+            "question_27": [
+                "27C"
+            ],
+            "question_28": [
+                "28A"
+            ],
+            "question_29": [
+                "29C"
+            ],
+            "question_30": [
+                "30A"
+            ],
+            "question_31": [
+                "31C"
+            ],
+            "question_32": [
+                "32A"
+            ],
+            "question_33": [
+                "33B"
+            ],
+            "question_34": [
+                "34A"
+            ],
+            "question_35": [
+                "35B"
+            ],
+            "question_36": [
+                "36A"
+            ],
+            "question_37": [
+                "37A"
+            ],
+            "question_38": [
+                "38A"
+            ],
+            "question_39": [
+                "39B"
+            ],
+            "question_40": [
+                "40B"
+            ],
+            "question_41": [
+                "41B"
+            ],
+            "question_42": [
+                "42A"
+            ],
+            "question_43": [
+                "43D"
+            ],
+            "question_44": [
+                "44C"
+            ],
+            "question_45": [
+                "45C"
+            ],
+            "question_46": [
+                "46C"
+            ],
+            "question_47": [
+                "47C"
+            ],
+            "question_48": [
+                "48A"
+            ],
+            "question_49": [
+                "49B"
+            ],
+            "question_50": [
+                "50A"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205168",
+            "booklet_no": "-0"
+        },
+        "BE24-06-03037.jpg": {
+            "question_1": [
+                "1A"
+            ],
+            "question_2": [
+                "2C"
+            ],
+            "question_3": [
+                "3B"
+            ],
+            "question_4": [
+                "4A"
+            ],
+            "question_5": [
+                "5B"
+            ],
+            "question_6": [
+                "6D"
+            ],
+            "question_7": [
+                "7C"
+            ],
+            "question_8": [
+                "8D"
+            ],
+            "question_9": [
+                "9C"
+            ],
+            "question_10": [
+                "10C"
+            ],
+            "question_11": [
+                "11B"
+            ],
+            "question_12": [
+                "12C"
+            ],
+            "question_13": [
+                "13D"
+            ],
+            "question_14": [
+                "14C"
+            ],
+            "question_15": [
+                "15B"
+            ],
+            "question_16": [
+                "16D"
+            ],
+            "question_17": [
+                "17B"
+            ],
+            "question_18": [
+                "18C"
+            ],
+            "question_19": [
+                "19D"
+            ],
+            "question_20": [
+                "20B"
+            ],
+            "question_21": [
+                "21D"
+            ],
+            "question_22": [
+                "22C"
+            ],
+            "question_23": [
+                "23A"
+            ],
+            "question_24": [
+                "24C"
+            ],
+            "question_25": [
+                "25B"
+            ],
+            "question_26": [
+                "26B"
+            ],
+            "question_27": [
+                "27D"
+            ],
+            "question_28": [
+                "28C"
+            ],
+            "question_29": [
+                "29B"
+            ],
+            "question_30": [
+                "30D"
+            ],
+            "question_31": [
+                "31A"
+            ],
+            "question_32": [
+                "32B"
+            ],
+            "question_33": [
+                "33D"
+            ],
+            "question_34": [
+                "34D"
+            ],
+            "question_35": [
+                "35A"
+            ],
+            "question_36": [
+                "36C"
+            ],
+            "question_37": [
+                "37B"
+            ],
+            "question_38": [
+                "38C"
+            ],
+            "question_39": [
+                "39C"
+            ],
+            "question_40": [
+                "40B"
+            ],
+            "question_41": [
+                "41C"
+            ],
+            "question_42": [
+                "42C"
+            ],
+            "question_43": [
+                "43D"
+            ],
+            "question_44": [
+                "44D"
+            ],
+            "question_45": [
+                "45B"
+            ],
+            "question_46": [
+                "46A"
+            ],
+            "question_47": null,
+            "question_48": [
+                "48C"
+            ],
+            "question_49": [
+                "49C"
+            ],
+            "question_50": [
+                "50D"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205169",
+            "booklet_no": "0-"
+        },
+        "BE24-06-03038.jpg": {
+            "question_1": [
+                "1D"
+            ],
+            "question_2": [
+                "2D"
+            ],
+            "question_3": [
+                "3A"
+            ],
+            "question_4": [
+                "4C"
+            ],
+            "question_5": [
+                "5B"
+            ],
+            "question_6": [
+                "6B"
+            ],
+            "question_7": [
+                "7B"
+            ],
+            "question_8": [
+                "8C"
+            ],
+            "question_9": [
+                "9B"
+            ],
+            "question_10": [
+                "10C"
+            ],
+            "question_11": [
+                "11A"
+            ],
+            "question_12": [
+                "12D"
+            ],
+            "question_13": [
+                "13A"
+            ],
+            "question_14": [
+                "14C"
+            ],
+            "question_15": [
+                "15A"
+            ],
+            "question_16": [
+                "16B"
+            ],
+            "question_17": [
+                "17C"
+            ],
+            "question_18": [
+                "18A"
+            ],
+            "question_19": [
+                "19C"
+            ],
+            "question_20": [
+                "20A"
+            ],
+            "question_21": [
+                "21C"
+            ],
+            "question_22": [
+                "22D"
+            ],
+            "question_23": [
+                "23C"
+            ],
+            "question_24": [
+                "24C"
+            ],
+            "question_25": [
+                "25D"
+            ],
+            "question_26": [
+                "26D"
+            ],
+            "question_27": [
+                "27A"
+            ],
+            "question_28": [
+                "28B"
+            ],
+            "question_29": [
+                "29C"
+            ],
+            "question_30": [
+                "30A"
+            ],
+            "question_31": [
+                "31C"
+            ],
+            "question_32": [
+                "32C"
+            ],
+            "question_33": [
+                "33C"
+            ],
+            "question_34": [
+                "34B"
+            ],
+            "question_35": [
+                "35D"
+            ],
+            "question_36": [
+                "36D"
+            ],
+            "question_37": [
+                "37A"
+            ],
+            "question_38": [
+                "38A"
+            ],
+            "question_39": [
+                "39D"
+            ],
+            "question_40": [
+                "40D"
+            ],
+            "question_41": [
+                "41B"
+            ],
+            "question_42": [
+                "42D"
+            ],
+            "question_43": [
+                "43D"
+            ],
+            "question_44": [
+                "44C"
+            ],
+            "question_45": [
+                "45C"
+            ],
+            "question_46": [
+                "46A"
+            ],
+            "question_47": [
+                "47D"
+            ],
+            "question_48": [
+                "48B"
+            ],
+            "question_49": [
+                "49B"
+            ],
+            "question_50": [
+                "50D"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205172",
+            "booklet_no": "-0"
+        },
+        "BE24-06-03039.jpg": {
+            "question_1": [
+                "1A"
+            ],
+            "question_2": [
+                "2D"
+            ],
+            "question_3": [
+                "3B"
+            ],
+            "question_4": [
+                "4A"
+            ],
+            "question_5": [
+                "5A"
+            ],
+            "question_6": [
+                "6A"
+            ],
+            "question_7": [
+                "7C"
+            ],
+            "question_8": [
+                "8A"
+            ],
+            "question_9": [
+                "9C"
+            ],
+            "question_10": [
+                "10A"
+            ],
+            "question_11": [
+                "11D"
+            ],
+            "question_12": [
+                "12D"
+            ],
+            "question_13": [
+                "13D"
+            ],
+            "question_14": [
+                "14C"
+            ],
+            "question_15": [
+                "15B"
+            ],
+            "question_16": [
+                "16D"
+            ],
+            "question_17": [
+                "17B"
+            ],
+            "question_18": [
+                "18A"
+            ],
+            "question_19": [
+                "19D"
+            ],
+            "question_20": [
+                "20C"
+            ],
+            "question_21": [
+                "21A"
+            ],
+            "question_22": [
+                "22B"
+            ],
+            "question_23": [
+                "23C"
+            ],
+            "question_24": [
+                "24C"
+            ],
+            "question_25": [
+                "25A"
+            ],
+            "question_26": [
+                "26B"
+            ],
+            "question_27": [
+                "27C"
+            ],
+            "question_28": [
+                "28C"
+            ],
+            "question_29": null,
+            "question_30": null,
+            "question_31": [
+                "31A"
+            ],
+            "question_32": [
+                "32B"
+            ],
+            "question_33": [
+                "33C"
+            ],
+            "question_34": [
+                "34D"
+            ],
+            "question_35": [
+                "35A"
+            ],
+            "question_36": [
+                "36C"
+            ],
+            "question_37": [
+                "37B"
+            ],
+            "question_38": [
+                "38C"
+            ],
+            "question_39": [
+                "39B"
+            ],
+            "question_40": [
+                "40C"
+            ],
+            "question_41": [
+                "41A"
+            ],
+            "question_42": [
+                "42B"
+            ],
+            "question_43": [
+                "43A"
+            ],
+            "question_44": [
+                "44D"
+            ],
+            "question_45": [
+                "45B"
+            ],
+            "question_46": [
+                "46A"
+            ],
+            "question_47": [
+                "47D"
+            ],
+            "question_48": [
+                "48C"
+            ],
+            "question_49": null,
+            "question_50": [
+                "50D"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205173",
+            "booklet_no": "0-"
+        },
+        "BE24-06-03040.jpg": {
+            "question_1": [
+                "1B"
+            ],
+            "question_2": [
+                "2D"
+            ],
+            "question_3": [
+                "3D"
+            ],
+            "question_4": null,
+            "question_5": [
+                "5B"
+            ],
+            "question_6": [
+                "6B"
+            ],
+            "question_7": [
+                "7B"
+            ],
+            "question_8": [
+                "8A"
+            ],
+            "question_9": [
+                "9B"
+            ],
+            "question_10": [
+                "10D"
+            ],
+            "question_11": [
+                "11C"
+            ],
+            "question_12": [
+                "12C"
+            ],
+            "question_13": [
+                "13C"
+            ],
+            "question_14": [
+                "14B"
+            ],
+            "question_15": [
+                "15B"
+            ],
+            "question_16": [
+                "16B"
+            ],
+            "question_17": [
+                "17C"
+            ],
+            "question_18": [
+                "18C"
+            ],
+            "question_19": [
+                "19C"
+            ],
+            "question_20": [
+                "20B"
+            ],
+            "question_21": [
+                "21A"
+            ],
+            "question_22": [
+                "22B"
+            ],
+            "question_23": [
+                "23D"
+            ],
+            "question_24": [
+                "24B"
+            ],
+            "question_25": [
+                "25D"
+            ],
+            "question_26": [
+                "26A"
+            ],
+            "question_27": [
+                "27D"
+            ],
+            "question_28": [
+                "28C"
+            ],
+            "question_29": [
+                "29D"
+            ],
+            "question_30": [
+                "30B"
+            ],
+            "question_31": [
+                "31C"
+            ],
+            "question_32": [
+                "32A"
+            ],
+            "question_33": [
+                "33B"
+            ],
+            "question_34": [
+                "34A"
+            ],
+            "question_35": [
+                "35B"
+            ],
+            "question_36": [
+                "36C"
+            ],
+            "question_37": [
+                "37C"
+            ],
+            "question_38": [
+                "38D"
+            ],
+            "question_39": [
+                "39D"
+            ],
+            "question_40": [
+                "40B"
+            ],
+            "question_41": [
+                "41C"
+            ],
+            "question_42": [
+                "42B"
+            ],
+            "question_43": [
+                "43D"
+            ],
+            "question_44": [
+                "44D"
+            ],
+            "question_45": [
+                "45A"
+            ],
+            "question_46": [
+                "46B"
+            ],
+            "question_47": [
+                "47D"
+            ],
+            "question_48": [
+                "48B"
+            ],
+            "question_49": [
+                "49A"
+            ],
+            "question_50": [
+                "50A"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205174",
+            "booklet_no": "-0"
+        },
+        "BE24-06-03041.jpg": {
+            "question_1": [
+                "1B"
+            ],
+            "question_2": [
+                "2D"
+            ],
+            "question_3": [
+                "3D"
+            ],
+            "question_4": [
+                "4A"
+            ],
+            "question_5": [
+                "5B"
+            ],
+            "question_6": [
+                "6D"
+            ],
+            "question_7": [
+                "7B"
+            ],
+            "question_8": [
+                "8C"
+            ],
+            "question_9": [
+                "9D"
+            ],
+            "question_10": [
+                "10C"
+            ],
+            "question_11": [
+                "11A"
+            ],
+            "question_12": [
+                "12C"
+            ],
+            "question_13": [
+                "13B"
+            ],
+            "question_14": [
+                "14C"
+            ],
+            "question_15": [
+                "15B"
+            ],
+            "question_16": [
+                "16C"
+            ],
+            "question_17": [
+                "17C"
+            ],
+            "question_18": [
+                "18A"
+            ],
+            "question_19": [
+                "19C"
+            ],
+            "question_20": [
+                "20C"
+            ],
+            "question_21": [
+                "21B"
+            ],
+            "question_22": [
+                "22C"
+            ],
+            "question_23": [
+                "23D"
+            ],
+            "question_24": [
+                "24B"
+            ],
+            "question_25": [
+                "25C"
+            ],
+            "question_26": [
+                "26D"
+            ],
+            "question_27": [
+                "27C"
+            ],
+            "question_28": [
+                "28B"
+            ],
+            "question_29": [
+                "29C"
+            ],
+            "question_30": [
+                "30D"
+            ],
+            "question_31": [
+                "31C"
+            ],
+            "question_32": [
+                "32B"
+            ],
+            "question_33": [
+                "33C"
+            ],
+            "question_34": [
+                "34A"
+            ],
+            "question_35": [
+                "35B"
+            ],
+            "question_36": [
+                "36A"
+            ],
+            "question_37": [
+                "37D"
+            ],
+            "question_38": [
+                "38A"
+            ],
+            "question_39": [
+                "39C"
+            ],
+            "question_40": [
+                "40B"
+            ],
+            "question_41": [
+                "41B"
+            ],
+            "question_42": [
+                "42A"
+            ],
+            "question_43": null,
+            "question_44": [
+                "44C"
+            ],
+            "question_45": [
+                "45C"
+            ],
+            "question_46": [
+                "46A"
+            ],
+            "question_47": [
+                "47D"
+            ],
+            "question_48": [
+                "48B"
+            ],
+            "question_49": [
+                "49A"
+            ],
+            "question_50": [
+                "50D"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205176",
+            "booklet_no": "-0"
+        },
+        "BE24-06-03042.jpg": {
+            "question_1": [
+                "1B"
+            ],
+            "question_2": [
+                "2D"
+            ],
+            "question_3": [
+                "3D"
+            ],
+            "question_4": [
+                "4D"
+            ],
+            "question_5": [
+                "5B"
+            ],
+            "question_6": [
+                "6D"
+            ],
+            "question_7": [
+                "7C"
+            ],
+            "question_8": [
+                "8D"
+            ],
+            "question_9": [
+                "9C"
+            ],
+            "question_10": [
+                "10C"
+            ],
+            "question_11": [
+                "11A"
+            ],
+            "question_12": [
+                "12C"
+            ],
+            "question_13": [
+                "13B"
+            ],
+            "question_14": [
+                "14B"
+            ],
+            "question_15": [
+                "15A"
+            ],
+            "question_16": [
+                "16B"
+            ],
+            "question_17": [
+                "17B"
+            ],
+            "question_18": [
+                "18C"
+            ],
+            "question_19": [
+                "19B"
+            ],
+            "question_20": [
+                "20B"
+            ],
+            "question_21": [
+                "21B"
+            ],
+            "question_22": [
+                "22B"
+            ],
+            "question_23": [
+                "23C"
+            ],
+            "question_24": [
+                "24C"
+            ],
+            "question_25": [
+                "25D"
+            ],
+            "question_26": [
+                "26A"
+            ],
+            "question_27": [
+                "27C"
+            ],
+            "question_28": [
+                "28A"
+            ],
+            "question_29": [
+                "29B"
+            ],
+            "question_30": [
+                "30A"
+            ],
+            "question_31": [
+                "31A"
+            ],
+            "question_32": [
+                "32A"
+            ],
+            "question_33": [
+                "33B"
+            ],
+            "question_34": [
+                "34A"
+            ],
+            "question_35": [
+                "35B"
+            ],
+            "question_36": [
+                "36A"
+            ],
+            "question_37": [
+                "37A"
+            ],
+            "question_38": [
+                "38A"
+            ],
+            "question_39": [
+                "39B"
+            ],
+            "question_40": [
+                "40B"
+            ],
+            "question_41": [
+                "41B"
+            ],
+            "question_42": [
+                "42A"
+            ],
+            "question_43": [
+                "43D"
+            ],
+            "question_44": [
+                "44C"
+            ],
+            "question_45": [
+                "45C"
+            ],
+            "question_46": [
+                "46C"
+            ],
+            "question_47": [
+                "47C"
+            ],
+            "question_48": [
+                "48C"
+            ],
+            "question_49": [
+                "49B"
+            ],
+            "question_50": [
+                "50D"
+            ],
+            "reg_no": null,
+            "roll_no": "20141-0258-7---",
+            "booklet_no": "-0"
+        },
+        "BE24-06-03043.jpg": {
+            "question_1": [
+                "1A"
+            ],
+            "question_2": [
+                "2C"
+            ],
+            "question_3": [
+                "3B"
+            ],
+            "question_4": [
+                "4A"
+            ],
+            "question_5": [
+                "5B"
+            ],
+            "question_6": [
+                "6C"
+            ],
+            "question_7": [
+                "7C"
+            ],
+            "question_8": [
+                "8A"
+            ],
+            "question_9": [
+                "9C"
+            ],
+            "question_10": [
+                "10C"
+            ],
+            "question_11": [
+                "11C"
+            ],
+            "question_12": [
+                "12D"
+            ],
+            "question_13": [
+                "13D"
+            ],
+            "question_14": [
+                "14D"
+            ],
+            "question_15": [
+                "15B"
+            ],
+            "question_16": [
+                "16D"
+            ],
+            "question_17": [
+                "17B"
+            ],
+            "question_18": [
+                "18C"
+            ],
+            "question_19": [
+                "19D"
+            ],
+            "question_20": [
+                "20C"
+            ],
+            "question_21": [
+                "21D"
+            ],
+            "question_22": null,
+            "question_23": [
+                "23A"
+            ],
+            "question_24": [
+                "24C"
+            ],
+            "question_25": [
+                "25A"
+            ],
+            "question_26": [
+                "26B"
+            ],
+            "question_27": [
+                "27C"
+            ],
+            "question_28": [
+                "28A"
+            ],
+            "question_29": [
+                "29C"
+            ],
+            "question_30": [
+                "30D"
+            ],
+            "question_31": [
+                "31A"
+            ],
+            "question_32": [
+                "32B"
+            ],
+            "question_33": [
+                "33C"
+            ],
+            "question_34": [
+                "34D"
+            ],
+            "question_35": [
+                "35A"
+            ],
+            "question_36": [
+                "36B"
+            ],
+            "question_37": [
+                "37B"
+            ],
+            "question_38": [
+                "38C"
+            ],
+            "question_39": [
+                "39B"
+            ],
+            "question_40": [
+                "40C"
+            ],
+            "question_41": [
+                "41C"
+            ],
+            "question_42": [
+                "42C"
+            ],
+            "question_43": [
+                "43A"
+            ],
+            "question_44": [
+                "44D"
+            ],
+            "question_45": [
+                "45B"
+            ],
+            "question_46": [
+                "46A"
+            ],
+            "question_47": [
+                "47D"
+            ],
+            "question_48": [
+                "48B"
+            ],
+            "question_49": [
+                "49A"
+            ],
+            "question_50": [
+                "50D"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205179",
+            "booklet_no": "0-"
+        },
+        "BE24-06-03044.jpg": {
+            "question_1": [
+                "1A"
+            ],
+            "question_2": [
+                "2D"
+            ],
+            "question_3": [
+                "3B"
+            ],
+            "question_4": [
+                "4B"
+            ],
+            "question_5": [
+                "5A"
+            ],
+            "question_6": [
+                "6B"
+            ],
+            "question_7": [
+                "7A"
+            ],
+            "question_8": [
+                "8B"
+            ],
+            "question_9": [
+                "9C"
+            ],
+            "question_10": [
+                "10D"
+            ],
+            "question_11": [
+                "11B"
+            ],
+            "question_12": [
+                "12D"
+            ],
+            "question_13": [
+                "13D"
+            ],
+            "question_14": [
+                "14D"
+            ],
+            "question_15": [
+                "15B"
+            ],
+            "question_16": [
+                "16D"
+            ],
+            "question_17": [
+                "17B"
+            ],
+            "question_18": [
+                "18A"
+            ],
+            "question_19": [
+                "19D"
+            ],
+            "question_20": [
+                "20D"
+            ],
+            "question_21": [
+                "21A"
+            ],
+            "question_22": [
+                "22C"
+            ],
+            "question_23": [
+                "23B"
+            ],
+            "question_24": [
+                "24A"
+            ],
+            "question_25": [
+                "25A"
+            ],
+            "question_26": [
+                "26B"
+            ],
+            "question_27": [
+                "27C"
+            ],
+            "question_28": [
+                "28A"
+            ],
+            "question_29": [
+                "29C"
+            ],
+            "question_30": [
+                "30D"
+            ],
+            "question_31": [
+                "31A"
+            ],
+            "question_32": [
+                "32A"
+            ],
+            "question_33": [
+                "33A"
+            ],
+            "question_34": [
+                "34C"
+            ],
+            "question_35": [
+                "35B"
+            ],
+            "question_36": [
+                "36B"
+            ],
+            "question_37": [
+                "37B"
+            ],
+            "question_38": [
+                "38C"
+            ],
+            "question_39": [
+                "39B"
+            ],
+            "question_40": [
+                "40C"
+            ],
+            "question_41": [
+                "41C"
+            ],
+            "question_42": [
+                "42C"
+            ],
+            "question_43": [
+                "43B"
+            ],
+            "question_44": [
+                "44D"
+            ],
+            "question_45": [
+                "45B"
+            ],
+            "question_46": [
+                "46C"
+            ],
+            "question_47": [
+                "47C"
+            ],
+            "question_48": [
+                "48D"
+            ],
+            "question_49": [
+                "49D"
+            ],
+            "question_50": [
+                "50A"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205181",
+            "booklet_no": "0-"
+        },
+        "BE24-06-03045.jpg": {
+            "question_1": [
+                "1B"
+            ],
+            "question_2": [
+                "2D"
+            ],
+            "question_3": [
+                "3D"
+            ],
+            "question_4": [
+                "4D"
+            ],
+            "question_5": [
+                "5B"
+            ],
+            "question_6": [
+                "6D"
+            ],
+            "question_7": [
+                "7B"
+            ],
+            "question_8": [
+                "8C"
+            ],
+            "question_9": [
+                "9D"
+            ],
+            "question_10": [
+                "10C"
+            ],
+            "question_11": [
+                "11A"
+            ],
+            "question_12": [
+                "12C"
+            ],
+            "question_13": [
+                "13B"
+            ],
+            "question_14": [
+                "14A"
+            ],
+            "question_15": [
+                "15B"
+            ],
+            "question_16": [
+                "16A"
+            ],
+            "question_17": [
+                "17C"
+            ],
+            "question_18": [
+                "18A"
+            ],
+            "question_19": [
+                "19C"
+            ],
+            "question_20": [
+                "20D"
+            ],
+            "question_21": [
+                "21B"
+            ],
+            "question_22": [
+                "22C"
+            ],
+            "question_23": [
+                "23A"
+            ],
+            "question_24": [
+                "24C"
+            ],
+            "question_25": [
+                "25D"
+            ],
+            "question_26": [
+                "26A"
+            ],
+            "question_27": [
+                "27C"
+            ],
+            "question_28": [
+                "28B"
+            ],
+            "question_29": [
+                "29C"
+            ],
+            "question_30": [
+                "30A"
+            ],
+            "question_31": [
+                "31C"
+            ],
+            "question_32": [
+                "32B"
+            ],
+            "question_33": [
+                "33C"
+            ],
+            "question_34": [
+                "34B"
+            ],
+            "question_35": [
+                "35B"
+            ],
+            "question_36": [
+                "36C"
+            ],
+            "question_37": [
+                "37C"
+            ],
+            "question_38": [
+                "38A"
+            ],
+            "question_39": [
+                "39C"
+            ],
+            "question_40": [
+                "40B"
+            ],
+            "question_41": [
+                "41D"
+            ],
+            "question_42": [
+                "42A"
+            ],
+            "question_43": [
+                "43A"
+            ],
+            "question_44": [
+                "44C"
+            ],
+            "question_45": [
+                "45C"
+            ],
+            "question_46": [
+                "46A"
+            ],
+            "question_47": [
+                "47D"
+            ],
+            "question_48": [
+                "48B"
+            ],
+            "question_49": [
+                "49A"
+            ],
+            "question_50": [
+                "50D"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205182",
+            "booklet_no": "-0"
+        },
+        "BE24-06-03046.jpg": {
+            "question_1": [
+                "1A"
+            ],
+            "question_2": [
+                "2D"
+            ],
+            "question_3": [
+                "3B"
+            ],
+            "question_4": [
+                "4C"
+            ],
+            "question_5": [
+                "5B"
+            ],
+            "question_6": [
+                "6C"
+            ],
+            "question_7": [
+                "7C"
+            ],
+            "question_8": [
+                "8D"
+            ],
+            "question_9": [
+                "9C"
+            ],
+            "question_10": [
+                "10A"
+            ],
+            "question_11": [
+                "11C"
+            ],
+            "question_12": [
+                "12B"
+            ],
+            "question_13": [
+                "13D"
+            ],
+            "question_14": [
+                "14D"
+            ],
+            "question_15": [
+                "15B"
+            ],
+            "question_16": [
+                "16D"
+            ],
+            "question_17": [
+                "17B"
+            ],
+            "question_18": [
+                "18B"
+            ],
+            "question_19": [
+                "19B"
+            ],
+            "question_20": [
+                "20C"
+            ],
+            "question_21": [
+                "21A"
+            ],
+            "question_22": [
+                "22C"
+            ],
+            "question_23": [
+                "23A"
+            ],
+            "question_24": [
+                "24C"
+            ],
+            "question_25": [
+                "25A"
+            ],
+            "question_26": [
+                "26A"
+            ],
+            "question_27": [
+                "27C"
+            ],
+            "question_28": [
+                "28C"
+            ],
+            "question_29": [
+                "29C"
+            ],
+            "question_30": [
+                "30D"
+            ],
+            "question_31": [
+                "31A"
+            ],
+            "question_32": [
+                "32B"
+            ],
+            "question_33": [
+                "33C"
+            ],
+            "question_34": [
+                "34D"
+            ],
+            "question_35": [
+                "35A"
+            ],
+            "question_36": [
+                "36B"
+            ],
+            "question_37": [
+                "37D"
+            ],
+            "question_38": [
+                "38C"
+            ],
+            "question_39": [
+                "39B"
+            ],
+            "question_40": [
+                "40B"
+            ],
+            "question_41": [
+                "41C"
+            ],
+            "question_42": [
+                "42C"
+            ],
+            "question_43": [
+                "43D"
+            ],
+            "question_44": [
+                "44D"
+            ],
+            "question_45": [
+                "45B"
+            ],
+            "question_46": [
+                "46A"
+            ],
+            "question_47": [
+                "47D"
+            ],
+            "question_48": [
+                "48B"
+            ],
+            "question_49": [
+                "49C"
+            ],
+            "question_50": [
+                "50D"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205183",
+            "booklet_no": "0-"
+        },
+        "BE24-06-03047.jpg": {
+            "question_1": [
+                "1B"
+            ],
+            "question_2": [
+                "2B"
+            ],
+            "question_3": [
+                "3D"
+            ],
+            "question_4": [
+                "4D"
+            ],
+            "question_5": [
+                "5B"
+            ],
+            "question_6": [
+                "6D"
+            ],
+            "question_7": [
+                "7B"
+            ],
+            "question_8": [
+                "8C"
+            ],
+            "question_9": [
+                "9B"
+            ],
+            "question_10": [
+                "10B"
+            ],
+            "question_11": [
+                "11C"
+            ],
+            "question_12": [
+                "12C"
+            ],
+            "question_13": [
+                "13D"
+            ],
+            "question_14": [
+                "14A"
+            ],
+            "question_15": [
+                "15B"
+            ],
+            "question_16": [
+                "16B"
+            ],
+            "question_17": [
+                "17C"
+            ],
+            "question_18": [
+                "18A"
+            ],
+            "question_19": [
+                "19C"
+            ],
+            "question_20": [
+                "20C"
+            ],
+            "question_21": [
+                "21B"
+            ],
+            "question_22": [
+                "22B"
+            ],
+            "question_23": [
+                "23A"
+            ],
+            "question_24": [
+                "24C"
+            ],
+            "question_25": [
+                "25D"
+            ],
+            "question_26": [
+                "26A"
+            ],
+            "question_27": [
+                "27C"
+            ],
+            "question_28": [
+                "28A"
+            ],
+            "question_29": [
+                "29C"
+            ],
+            "question_30": null,
+            "question_31": [
+                "31C"
+            ],
+            "question_32": null,
+            "question_33": [
+                "33B"
+            ],
+            "question_34": [
+                "34A"
+            ],
+            "question_35": [
+                "35B"
+            ],
+            "question_36": [
+                "36A"
+            ],
+            "question_37": [
+                "37C"
+            ],
+            "question_38": [
+                "38A"
+            ],
+            "question_39": [
+                "39B"
+            ],
+            "question_40": [
+                "40B"
+            ],
+            "question_41": [
+                "41B"
+            ],
+            "question_42": [
+                "42C"
+            ],
+            "question_43": [
+                "43D"
+            ],
+            "question_44": [
+                "44C"
+            ],
+            "question_45": [
+                "45C"
+            ],
+            "question_46": null,
+            "question_47": [
+                "47D"
+            ],
+            "question_48": [
+                "48B"
+            ],
+            "question_49": [
+                "49A"
+            ],
+            "question_50": [
+                "50D"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205184",
+            "booklet_no": "-0"
+        },
+        "BE24-06-03048.jpg": {
+            "question_1": [
+                "1B"
+            ],
+            "question_2": [
+                "2D"
+            ],
+            "question_3": [
+                "3A"
+            ],
+            "question_4": [
+                "4B"
+            ],
+            "question_5": [
+                "5B"
+            ],
+            "question_6": [
+                "6C"
+            ],
+            "question_7": [
+                "7B"
+            ],
+            "question_8": [
+                "8B"
+            ],
+            "question_9": [
+                "9D"
+            ],
+            "question_10": [
+                "10C"
+            ],
+            "question_11": [
+                "11A"
+            ],
+            "question_12": [
+                "12D"
+            ],
+            "question_13": [
+                "13A"
+            ],
+            "question_14": [
+                "14C"
+            ],
+            "question_15": [
+                "15A"
+            ],
+            "question_16": [
+                "16C"
+            ],
+            "question_17": [
+                "17B"
+            ],
+            "question_18": [
+                "18A"
+            ],
+            "question_19": [
+                "19C"
+            ],
+            "question_20": [
+                "20B"
+            ],
+            "question_21": [
+                "21A"
+            ],
+            "question_22": [
+                "22C"
+            ],
+            "question_23": [
+                "23A"
+            ],
+            "question_24": [
+                "24A"
+            ],
+            "question_25": [
+                "25B"
+            ],
+            "question_26": [
+                "26A"
+            ],
+            "question_27": [
+                "27C"
+            ],
+            "question_28": [
+                "28B"
+            ],
+            "question_29": [
+                "29A"
+            ],
+            "question_30": [
+                "30A"
+            ],
+            "question_31": [
+                "31C"
+            ],
+            "question_32": [
+                "32A"
+            ],
+            "question_33": [
+                "33A"
+            ],
+            "question_34": [
+                "34B"
+            ],
+            "question_35": [
+                "35D"
+            ],
+            "question_36": [
+                "36D"
+            ],
+            "question_37": [
+                "37C"
+            ],
+            "question_38": [
+                "38A"
+            ],
+            "question_39": [
+                "39C"
+            ],
+            "question_40": [
+                "40A"
+            ],
+            "question_41": [
+                "41B"
+            ],
+            "question_42": [
+                "42D"
+            ],
+            "question_43": [
+                "43B"
+            ],
+            "question_44": [
+                "44D"
+            ],
+            "question_45": [
+                "45C"
+            ],
+            "question_46": [
+                "46D"
+            ],
+            "question_47": [
+                "47D"
+            ],
+            "question_48": [
+                "48A"
+            ],
+            "question_49": [
+                "49D"
+            ],
+            "question_50": [
+                "50D"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205186",
+            "booklet_no": "-0"
+        },
+        "BE24-06-03049.jpg": {
+            "question_1": [
+                "1A"
+            ],
+            "question_2": [
+                "2D"
+            ],
+            "question_3": [
+                "3B"
+            ],
+            "question_4": [
+                "4A"
+            ],
+            "question_5": [
+                "5A"
+            ],
+            "question_6": [
+                "6C"
+            ],
+            "question_7": [
+                "7C"
+            ],
+            "question_8": [
+                "8D"
+            ],
+            "question_9": [
+                "9C"
+            ],
+            "question_10": [
+                "10C"
+            ],
+            "question_11": [
+                "11B"
+            ],
+            "question_12": [
+                "12D"
+            ],
+            "question_13": [
+                "13D"
+            ],
+            "question_14": [
+                "14D"
+            ],
+            "question_15": [
+                "15B"
+            ],
+            "question_16": [
+                "16D"
+            ],
+            "question_17": [
+                "17A"
+            ],
+            "question_18": [
+                "18B"
+            ],
+            "question_19": [
+                "19D"
+            ],
+            "question_20": [
+                "20C"
+            ],
+            "question_21": [
+                "21D"
+            ],
+            "question_22": [
+                "22C"
+            ],
+            "question_23": [
+                "23B"
+            ],
+            "question_24": [
+                "24D"
+            ],
+            "question_25": [
+                "25A"
+            ],
+            "question_26": [
+                "26B"
+            ],
+            "question_27": [
+                "27C"
+            ],
+            "question_28": [
+                "28C"
+            ],
+            "question_29": [
+                "29C"
+            ],
+            "question_30": [
+                "30D"
+            ],
+            "question_31": [
+                "31D"
+            ],
+            "question_32": [
+                "32A"
+            ],
+            "question_33": [
+                "33B"
+            ],
+            "question_34": [
+                "34D"
+            ],
+            "question_35": [
+                "35B"
+            ],
+            "question_36": [
+                "36B"
+            ],
+            "question_37": [
+                "37B"
+            ],
+            "question_38": [
+                "38C"
+            ],
+            "question_39": [
+                "39A"
+            ],
+            "question_40": [
+                "40B"
+            ],
+            "question_41": [
+                "41C"
+            ],
+            "question_42": [
+                "42C"
+            ],
+            "question_43": [
+                "43D"
+            ],
+            "question_44": [
+                "44D"
+            ],
+            "question_45": [
+                "45B"
+            ],
+            "question_46": [
+                "46D"
+            ],
+            "question_47": [
+                "47D"
+            ],
+            "question_48": [
+                "48B"
+            ],
+            "question_49": [
+                "49D"
+            ],
+            "question_50": [
+                "50D"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205187",
+            "booklet_no": "0-"
+        },
+        "BE24-06-03050.jpg": {
+            "question_1": [
+                "1B"
+            ],
+            "question_2": [
+                "2C"
+            ],
+            "question_3": [
+                "3D"
+            ],
+            "question_4": [
+                "4C"
+            ],
+            "question_5": [
+                "5B"
+            ],
+            "question_6": [
+                "6D"
+            ],
+            "question_7": [
+                "7B"
+            ],
+            "question_8": [
+                "8A"
+            ],
+            "question_9": [
+                "9D"
+            ],
+            "question_10": [
+                "10D"
+            ],
+            "question_11": [
+                "11A"
+            ],
+            "question_12": [
+                "12C"
+            ],
+            "question_13": [
+                "13B"
+            ],
+            "question_14": [
+                "14B"
+            ],
+            "question_15": [
+                "15A"
+            ],
+            "question_16": [
+                "16B"
+            ],
+            "question_17": [
+                "17C"
+            ],
+            "question_18": [
+                "18A"
+            ],
+            "question_19": [
+                "19C"
+            ],
+            "question_20": null,
+            "question_21": [
+                "21C"
+            ],
+            "question_22": [
+                "22C"
+            ],
+            "question_23": [
+                "23C"
+            ],
+            "question_24": null,
+            "question_25": [
+                "25A"
+            ],
+            "question_26": null,
+            "question_27": [
+                "27B"
+            ],
+            "question_28": [
+                "28B"
+            ],
+            "question_29": [
+                "29D"
+            ],
+            "question_30": [
+                "30A"
+            ],
+            "question_31": [
+                "31C"
+            ],
+            "question_32": [
+                "32C"
+            ],
+            "question_33": [
+                "33D"
+            ],
+            "question_34": [
+                "34A"
+            ],
+            "question_35": [
+                "35A"
+            ],
+            "question_36": [
+                "36A"
+            ],
+            "question_37": [
+                "37D"
+            ],
+            "question_38": [
+                "38A"
+            ],
+            "question_39": [
+                "39C"
+            ],
+            "question_40": [
+                "40D"
+            ],
+            "question_41": [
+                "41D"
+            ],
+            "question_42": [
+                "42C"
+            ],
+            "question_43": [
+                "43A"
+            ],
+            "question_44": [
+                "44C"
+            ],
+            "question_45": [
+                "45C"
+            ],
+            "question_46": [
+                "46A"
+            ],
+            "question_47": [
+                "47D"
+            ],
+            "question_48": [
+                "48D"
+            ],
+            "question_49": [
+                "49A"
+            ],
+            "question_50": [
+                "50A"
+            ],
+            "reg_no": null,
+            "roll_no": "2401205188",
+            "booklet_no": "-0"
+        }
+    }
+}
