@@ -7,7 +7,7 @@ import pandas as pd
 from typing import Dict, Tuple, List, Optional, Any
 
 # --- Global Configurations / Constants ---
-TEMP_DIR = "D:\\OMR_DEV\\temp"
+TEMP_DIR = "D:\\Wrishav\\omr-sheet\\temp"
 ANCHOR_NAME = "anchor_1"
 IMAGE_EXTENSIONS = ('.jpg', '.jpeg', '.png', '.bmp', '.tiff', '.tif') # Common image extensions
 
