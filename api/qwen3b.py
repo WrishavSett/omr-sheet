@@ -18,7 +18,7 @@ from flask import Flask, request, jsonify
 _model = None
 _processor = None
 MODEL_NAME = "Qwen/Qwen2.5-VL-3B-Instruct"
-MODEL_PATH = "models/models--Qwen--Qwen2.5-VL-3B-Instruct/snapshots/66285546d2b821cf421d4f5eb2576359d3770cd3"
+MODEL_PATH = "models/models--Qwen--Qwen2.5-VL-3B-Instruct"
 
 # --- Utility function: process_vision_info (directly from your original context) ---
 # This function prepares image inputs for the model. It's included here to keep
